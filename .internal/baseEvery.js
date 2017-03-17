@@ -1,4 +1,4 @@
-import baseEach from './baseEach.js'
+import baseEach from './baseEach.js'  // TODO 该功能尚未完成
 
 /**
  * The base implementation of `every`.

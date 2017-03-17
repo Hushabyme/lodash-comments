@@ -1,4 +1,4 @@
-import baseForOwn from './baseForOwn.js'
+import baseForOwn from './baseForOwn.js'    // TODO 该功能尚未完成
 import isArrayLike from '../isArrayLike.js'
 
 /**

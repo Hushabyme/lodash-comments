@@ -1,4 +1,4 @@
-import createBaseFor from './createBaseFor.js'
+import createBaseFor from './createBaseFor.js'  // TODO 该功能尚未完成
 
 /**
  * This function is like `baseFor` except that it iterates over properties

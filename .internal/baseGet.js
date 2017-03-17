@@ -2,18 +2,18 @@ import castPath from './castPath.js'
 import toKey from './toKey.js'
 
 /**
- * The base implementation of `get` without support for default values.
+ * T `get` 的基本实现，但不支持默认值
  *
  * @private
- * @param {Object} object The object to query.
- * @param {Array|string} path The path of the property to get.
- * @returns {*} Returns the resolved value.
+ * @param {Object} object 要查询的对象
+ * @param {Array|string} path 要获取的 key 的路径
+ * @returns {*} 返回完成的值
  */
 function baseGet(object, path) {
-  path = castPath(path, object)
+  path = castPath(path, object);
 
-  let index = 0
-  const length = path.length
+  let index = 0;
+  const length = path.length;
 
   while (object != null && index < length) {
     object = object[toKey(path[index++])]
@@ -21,4 +21,4 @@ function baseGet(object, path) {
   return (index && index == length) ? object : undefined
 }
 
-export default baseGet
+export default baseGet;

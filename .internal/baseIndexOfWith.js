@@ -1,23 +1,23 @@
 /**
- * This function is like `baseIndexOf` except that it accepts a comparator.
+ * 这个函数很像 `baseIndexOf` 除了它接受一个比较器
  *
  * @private
- * @param {Array} array The array to inspect.
- * @param {*} value The value to search for.
- * @param {number} fromIndex The index to search from.
- * @param {Function} comparator The comparator invoked per element.
- * @returns {number} Returns the index of the matched value, else `-1`.
+ * @param {Array} array 指定的数组
+ * @param {*} value 要搜索的值
+ * @param {number} fromIndex 要搜索的索引值
+ * @param {Function} comparator 比较器调用在每一个元素上
+ * @returns {number} 有匹配的值时，返回该索引值，否则返回  `-1`
  */
 function baseIndexOfWith(array, value, fromIndex, comparator) {
-  let index = fromIndex - 1
-  const { length } = array
+  let index = fromIndex - 1;
+  const { length } = array;
 
   while (++index < length) {
     if (comparator(array[index], value)) {
-      return index
+      return index;
     }
   }
-  return -1
+  return -1;
 }
 
-export default baseIndexOfWith
+export default baseIndexOfWith;
