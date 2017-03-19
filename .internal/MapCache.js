@@ -3,13 +3,14 @@ import Hash from './Hash.js'
 import ListCache from './ListCache.js'
 
 /**
- * Gets the data for `map`.
+ * 获取 `map` 的数据
  *
  * @private
- * @param {Object} map The map to query.
- * @param {string} key The reference key.
- * @returns {*} Returns the map data.
+ * @param {Object} map 查询的 map
+ * @param {string} key 引用的 key
+ * @returns {*} 返回 map 的数据
  */
+
 function getMapData({ __data__ }, key) {
   const data = __data__
   return isKeyable(key)
@@ -18,14 +19,15 @@ function getMapData({ __data__ }, key) {
 }
 
 /**
- * Checks if `value` is suitable for use as unique object key.
+ * 检查`value`是否适合用作唯一的对象键
  *
  * @private
- * @param {*} value The value to check.
- * @returns {boolean} Returns `true` if `value` is suitable, else `false`.
+ * @param {*} value 检查的值
+ * @returns {boolean} 如果 `value` 适合则返回 `true`，否则返回 `false`
  */
+
 function isKeyable(value) {
-  const type = typeof value
+  const type = typeof value;
   return (type == 'string' || type == 'number' || type == 'symbol' || type == 'boolean')
     ? (value !== '__proto__')
     : (value === null)
@@ -34,28 +36,30 @@ function isKeyable(value) {
 class MapCache {
 
   /**
-   * Creates a map cache object to store key-value pairs.
+   * 创建一个 map 仓库储存 key-value pairs
    *
    * @private
    * @constructor
-   * @param {Array} [entries] The key-value pairs to cache.
+   * @param {Array} [entries] key-value pairs 储存的地方
    */
-  constructor(entries) {
-    let index = -1
-    const length = entries == null ? 0 : entries.length
 
-    this.clear()
+  constructor(entries) {
+    let index = -1;
+    const length = entries == null ? 0 : entries.length;
+
+    this.clear();
     while (++index < length) {
-      const entry = entries[index]
-      this.set(entry[0], entry[1])
+      const entry = entries[index];
+      this.set(entry[0], entry[1]);
     }
   }
 
   /**
-   * Removes all key-value entries from the map.
+   * 从 map 中移除所有的 key-value entries
    *
    * @memberOf MapCache
    */
+
   clear() {
     this.size = 0
     this.__data__ = {
@@ -66,56 +70,60 @@ class MapCache {
   }
 
   /**
-   * Removes `key` and its value from the map.
+   * 从 map 中移除 `key` 和它的 value
    *
    * @memberOf MapCache
-   * @param {string} key The key of the value to remove.
-   * @returns {boolean} Returns `true` if the entry was removed, else `false`.
+   * @param {string} key 要删除的 value 的 key
+   * @returns {boolean} 如果 entry 被移除则返回 `true`，否则返回 `false`
    */
+
   delete(key) {
-    const result = getMapData(this, key)['delete'](key)
-    this.size -= result ? 1 : 0
-    return result
+    const result = getMapData(this, key)['delete'](key);
+    this.size -= result ? 1 : 0;
+    return result;
   }
 
   /**
-   * Gets the map value for `key`.
+   * 获取`key`的 map 值
    *
    * @memberOf MapCache
-   * @param {string} key The key of the value to get.
-   * @returns {*} Returns the entry value.
+   * @param {string} key 获得的 value 的 key
+   * @returns {*} 返回 entry 的 value
    */
+
   get(key) {
     return getMapData(this, key).get(key)
   }
 
   /**
-   * Checks if a map value for `key` exists.
+   * 检查是否存在`key`的 map 值。
    *
    * @memberOf MapCache
-   * @param {string} key The key of the entry to check.
-   * @returns {boolean} Returns `true` if an entry for `key` exists, else `false`.
+   * @param {string} key 检查的 key
+   * @returns {boolean} 如果 entry 的 `key` 存在则返回 `true`，否则返回 `false`
    */
+
   has(key) {
-    return getMapData(this, key).has(key)
+    return getMapData(this, key).has(key);
   }
 
   /**
-   * Sets the map `key` to `value`.
+   * 给 map 的 `key` 设置 `value`
    *
    * @memberOf MapCache
-   * @param {string} key The key of the value to set.
-   * @param {*} value The value to set.
-   * @returns {Object} Returns the map cache instance.
+   * @param {string} key 要设置值的 key
+   * @param {*} value 要设置的值
+   * @returns {Object} 返回 map 仓库实例
    */
-  set(key, value) {
-    const data = getMapData(this, key)
-    const size = data.size
 
-    data.set(key, value)
-    this.size += data.size == size ? 0 : 1
+  set(key, value) {
+    const data = getMapData(this, key);
+    const size = data.size;
+
+    data.set(key, value);
+    this.size += data.size == size ? 0 : 1;
     return this
   }
 }
 
-export default MapCache
+export default MapCache;

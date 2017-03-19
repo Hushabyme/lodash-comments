@@ -40,12 +40,12 @@ export default assocIndexOf;
 // 那么，我用内置的方法测试一下
 
 // test
-function assocIndexOf(array, key) {
+function assocIndexOf1(array, key) {
   return array.indexOf(key);
 }
-console.log(assocIndexOf(['a','b','a'],'a'));  // 0
+console.log(assocIndexOf1(['a','b','a'],'a'));  // 0
 
-// 我们可以明显的看出 lodash 中的这个函数其实和内置的不一样，与 lastIndexOf() 方法一致
+// 我们可以明显的看出 `lodash` 中的这个函数其实和内置的不一样，与 lastIndexOf() 方法一致
 // 当然，这里是放在 internal 中，不是公开的方法，所以需要再看看它的适用性
 
 // 在这里我进行了思考，假设我要找到数组中所有的相等的值应该怎么办？

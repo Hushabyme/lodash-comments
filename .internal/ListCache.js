@@ -1,103 +1,107 @@
 import assocIndexOf from './assocIndexOf.js'
 
-/** Built-in value references. */
-const splice = Array.prototype.splice
+/** 内置的值的引用 */
+const splice = Array.prototype.splice;
 
 class ListCache {
 
   /**
-   * Creates an list cache object.
+   * 创建一个 List 仓库实体
    *
    * @private
    * @constructor
-   * @param {Array} [entries] The key-value pairs to cache.
+   * @param {Array} [entries] 储存 key-value pairs
    */
   constructor(entries) {
-    let index = -1
-    const length = entries == null ? 0 : entries.length
+    let index = -1;
+    const length = entries == null ? 0 : entries.length;
 
-    this.clear()
+    this.clear();
     while (++index < length) {
-      const entry = entries[index]
+      const entry = entries[index];
       this.set(entry[0], entry[1])
     }
   }
 
   /**
-   * Removes all key-value entries from the list cache.
+   * 移除所有的 key-value entries 从 list 仓库中
    *
    * @memberOf ListCache
    */
   clear() {
-    this.__data__ = []
-    this.size = 0
+    this.__data__ = [];
+    this.size = 0;
   }
 
   /**
-   * Removes `key` and its value from the list cache.
+   * 从列表仓库中移除 `key` 和它的值
    *
    * @memberOf ListCache
-   * @param {string} key The key of the value to remove.
-   * @returns {boolean} Returns `true` if the entry was removed, else `false`.
+   * @param {string} key 要移除的值
+   * @returns {boolean} 如果 entry 被移除了则返回 `true`，否则返回 `false`
    */
+
   delete(key) {
-    const data = this.__data__
-    const index = assocIndexOf(data, key)
+    const data = this.__data__;
+    const index = assocIndexOf(data, key);
 
     if (index < 0) {
       return false
     }
-    const lastIndex = data.length - 1
+    const lastIndex = data.length - 1;
     if (index == lastIndex) {
-      data.pop()
+      data.pop();
     } else {
-      splice.call(data, index, 1)
+      splice.call(data, index, 1);
     }
-    --this.size
+    --this.size;
     return true
   }
 
   /**
-   * Gets the list cache value for `key`.
+   * 获取列表仓库中 `key` 的值
    *
    * @memberOf ListCache
-   * @param {string} key The key of the value to get.
-   * @returns {*} Returns the entry value.
+   * @param {string} key 获取的值
+   * @returns {*} 返回 entry 的值
    */
+
   get(key) {
-    const data = this.__data__
-    const index = assocIndexOf(data, key)
-    return index < 0 ? undefined : data[index][1]
+    const data = this.__data__;
+    const index = assocIndexOf(data, key);
+    return index < 0 ? undefined : data[index][1];
   }
 
   /**
-   * Checks if a list cache value for `key` exists.
+   * 检查列表仓库中 `key` 是否存在
    *
    * @memberOf ListCache
-   * @param {string} key The key of the entry to check.
-   * @returns {boolean} Returns `true` if an entry for `key` exists, else `false`.
+   * @param {string} key 检查 entry 的 key
+   * @returns {boolean} 如果 entry 的 `key` 存在则返回 `true`，否则返回 `false`
    */
+
   has(key) {
-    return assocIndexOf(this.__data__, key) > -1
+    return assocIndexOf(this.__data__, key) > -1;
   }
 
   /**
-   * Sets the list cache `key` to `value`.
+   * 设置列表仓库 `key` 的 `value`
    *
    * @memberOf ListCache
-   * @param {string} key The key of the value to set.
-   * @param {*} value The value to set.
-   * @returns {Object} Returns the list cache instance.
+   * @param {string} key 要设置的值的 key
+   * @param {*} value 要设置的值
+   * @returns {Object} 返回列表仓库实例
    */
+
   set(key, value) {
-    const data = this.__data__
-    const index = assocIndexOf(data, key)
+    const data = this.__data__;
+    const index = assocIndexOf(data, key);
 
     if (index < 0) {
-      ++this.size
-      data.push([key, value])
+      ++this.size;
+      data.push([key, value]);
     } else {
-      data[index][1] = value
+      data[index][1] = value;
     }
     return this
   }
