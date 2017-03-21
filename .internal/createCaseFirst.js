@@ -3,7 +3,7 @@ import hasUnicode from './hasUnicode.js'
 import stringToArray from './stringToArray.js'
 
 /**
- * Creates a function like `lowerFirst`.
+ * 创建一个类似于 `lowerFirst` 的函数
  *
  * @private
  * @param {string} methodName The name of the `String` case method to use.

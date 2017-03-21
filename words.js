@@ -3,13 +3,13 @@ import hasUnicodeWord from './.internal/hasUnicodeWord.js'
 import unicodeWords from './.internal/unicodeWords.js'
 
 /**
- * Splits `string` into an array of its words.
+ * 将 `string` 分割成其字的数组
  *
  * @since 3.0.0
  * @category String
- * @param {string} [string=''] The string to inspect.
- * @param {RegExp|string} [pattern] The pattern to match words.
- * @returns {Array} Returns the words of `string`.
+ * @param {string} [string=''] 要检查的字符串
+ * @param {RegExp|string} [pattern] 匹配单词的模式.
+ * @returns {Array} 返回 `string` 的单词
  * @example
  *
  * words('fred, barney, & pebbles')

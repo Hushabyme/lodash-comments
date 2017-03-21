@@ -1,12 +1,11 @@
 /**
- * The opposite of `before`his method creates a function that invokes
- * `func` once it's called `n` or more times.
+ * 与 `before` 相反，他的方法创建一个函数，一旦调用 `n` 或更多次，就调用 `func`
  *
  * @since 0.1.0
  * @category Function
- * @param {number} n The number of calls before `func` is invoked.
- * @param {Function} func The function to restrict.
- * @returns {Function} Returns the new restricted function.
+ * @param {number} n `func` 被调用之前的次数
+ * @param {Function} func 限制的函数
+ * @returns {Function} 返回新的限制函数
  * @example
  *
  * const saves = ['profile', 'settings']
@@ -27,3 +26,4 @@ function after(n, func) {
 }
 
 export default after
+

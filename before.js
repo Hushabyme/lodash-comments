@@ -1,13 +1,12 @@
 /**
- * Creates a function that invokes `func`, with the `this` binding and arguments
- * of the created function, while it's called less than `n` times. Subsequent
- * calls to the created function return the result of the last `func` invocation.
+ * 创建一个函数，调用 `func`，用 `this` 绑定和创建的函数的参数，而它被称为少于 `n`倍
+ * 对创建的函数的后续调用返回最后一个 `func` 调用的结果
  *
  * @since 3.0.0
  * @category Function
- * @param {number} n The number of calls at which `func` is no longer invoked.
- * @param {Function} func The function to restrict.
- * @returns {Function} Returns the new restricted function.
+ * @param {number} n 不再调用 `func` 的调用数
+ * @param {Function} func 限制的函数
+ * @returns {Function} 返回新的限制函数
  * @example
  *
  * jQuery(element).on('click', before(5, addContactToList))

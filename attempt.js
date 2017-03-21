@@ -1,14 +1,13 @@
 import isError from './isError.js'
 
 /**
- * Attempts to invoke `func`, returning either the result or the caught error
- * object. Any additional arguments are provided to `func` when it's invoked.
+ * 尝试调用 `func`，返回结果或捕获的错误对象。`func` 在调用时提供任何额外的参数
  *
  * @since 3.0.0
  * @category Util
- * @param {Function} func The function to attempt.
- * @param {...*} [args] The arguments to invoke `func` with.
- * @returns {*} Returns the `func` result or error object.
+ * @param {Function} func 尝试的函数
+ * @param {...*} [args] 调用`func`的参数
+ * @returns {*} 返回 `func` 结果或错误对象
  * @example
  *
  * // Avoid throwing errors for invalid selectors.

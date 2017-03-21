@@ -2,16 +2,16 @@ import baseToNumber from './baseToNumber.js'
 import baseToString from './baseToString.js'
 
 /**
- * Creates a function that performs a mathematical operation on two values.
+ * 创建对两个值执行数学运算的函数
  *
  * @private
- * @param {Function} operator The function to perform the operation.
- * @param {number} [defaultValue] The value used for `undefined` arguments.
- * @returns {Function} Returns the new mathematical operation function.
+ * @param {Function} operator 执行操作的函数
+ * @param {number} [defaultValue] 用于 `undefined` 参数的值
+ * @returns {Function} 返回新的数学运算函数
  */
 function createMathOperation(operator, defaultValue) {
   return (value, other) => {
-    let result
+    let result;
     if (value === undefined && other === undefined) {
       return defaultValue
     }
@@ -23,13 +23,13 @@ function createMathOperation(operator, defaultValue) {
         return other
       }
       if (typeof value == 'string' || typeof other == 'string') {
-        value = baseToString(value)
-        other = baseToString(other)
+        value = baseToString(value);
+        other = baseToString(other);
       } else {
-        value = baseToNumber(value)
-        other = baseToNumber(other)
+        value = baseToNumber(value);
+        other = baseToNumber(other);
       }
-      result = operator(value, other)
+      result = operator(value, other);
     }
     return result
   }

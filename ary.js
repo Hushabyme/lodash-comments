@@ -1,7 +1,13 @@
+/*
+*
+* 该方法应该是已经被废弃
+*
+* */
+
 import createWrap from './.internal/createWrap.js'
 
-/** Used to compose bitmasks for function metadata. */
-const WRAP_ARY_FLAG = 128
+/** 用于组合函数元数据的位掩码 */
+const WRAP_ARY_FLAG = 128;
 
 /**
  * Creates a function that invokes `func`, with up to `n` arguments,
@@ -23,3 +29,5 @@ function ary(func, n) {
 }
 
 export default ary
+
+

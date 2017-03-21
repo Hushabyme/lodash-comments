@@ -1,13 +1,13 @@
 import baseAt from './.internal/baseAt.js'
 
 /**
- * Creates an array of values corresponding to `paths` of `object`.
+ * 创建与 `object` 的 `path` 对应的值的数组
  *
  * @since 1.0.0
  * @category Object
- * @param {Object} object The object to iterate over.
- * @param {...(string|string[])} [paths] The property paths to pick.
- * @returns {Array} Returns the picked values.
+ * @param {Object} object 要迭代的对象
+ * @param {...(string|string[])} [paths] 要选择的属性路径.
+ * @returns {Array} 返回所选值
  * @example
  *
  * const object = { 'a': [{ 'b': { 'c': 3 } }, 4] }

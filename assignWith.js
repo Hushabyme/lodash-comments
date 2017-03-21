@@ -1,3 +1,9 @@
+/*
+ *
+ * 该方法应该是已经被废弃
+ *
+ * */
+
 import copyObject from './.internal/copyObject.js'
 import createAssigner from './.internal/createAssigner.js'
 import keys from './keys.js'

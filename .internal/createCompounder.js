@@ -1,14 +1,14 @@
 import words from '../words.js'
 
-/** Used to match apostrophes. */
-const reApos = /['\u2019]/g
+/** 用于匹配撇号 */
+const reApos = /['\u2019]/g;
 
 /**
- * Creates a function like `camelCase`.
+ * 创建一个类似于 `camelCase` 的函数
  *
  * @private
- * @param {Function} callback The function to combine each word.
- * @returns {Function} Returns the new compounder function.
+ * @param {Function} callback 组合每个词的函数
+ * @returns {Function} 返回新的 compounder 函数
  */
 function createCompounder(callback) {
   return (string) => (

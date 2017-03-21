@@ -1,13 +1,12 @@
 import upperFirst from './upperFirst.js'
 
 /**
- * Converts the first character of `string` to upper case and the remaining
- * to lower case.
+ * 将 `string` 的第一个字符转换为大写，将其余字符转换为小写
  *
  * @since 3.0.0
  * @category String
- * @param {string} [string=''] The string to capitalize.
- * @returns {string} Returns the capitalized string.
+ * @param {string} [string=''] 要大写的字符串.
+ * @returns {string} 返回经过大写处理后的字符串
  * @example
  *
  * capitalize('FRED')

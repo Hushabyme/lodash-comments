@@ -1,15 +1,13 @@
 import baseSlice from './.internal/baseSlice.js'
 
 /**
- * Creates an array of elements split into groups the length of `size`.
- * If `array` can't be split evenly, the final chunk will be the remaining
- * elements.
+ * 创建一个元素数组，分成 `size` 的长度。如果 `array` 不能被平均分割，最后的块将是剩余的元素。
  *
  * @since 3.0.0
  * @category Array
- * @param {Array} array The array to process.
- * @param {number} [size=1] The length of each chunk
- * @returns {Array} Returns the new array of chunks.
+ * @param {Array} array 要处理的数组
+ * @param {number} [size=1] 每个分割的小块的长度
+ * @returns {Array} 返回新的数组块
  * @example
  *
  * chunk(['a', 'b', 'c', 'd'], 2)
@@ -35,3 +33,11 @@ function chunk(array, size) {
 }
 
 export default chunk
+
+/*
+*
+* 思考：
+*
+* 上面的 baseSlice() 方法就是 Array.prototype.slice() 方法的替代
+*
+* */

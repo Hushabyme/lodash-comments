@@ -1,3 +1,9 @@
+/*
+ *
+ * 该方法应该是已经被废弃
+ *
+ * */
+
 import createWrap from './.internal/createWrap.js'
 import getHolder from './.internal/getHolder.js'
 import replaceHolders from './.internal/replaceHolders.js'

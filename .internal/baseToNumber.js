@@ -1,15 +1,14 @@
 import isSymbol from '../isSymbol.js'
 
-/** Used as references for various `Number` constants. */
-const NAN = 0 / 0
+/** 用作 `Number` 常量的引用 */
+const NAN = 0 / 0;
 
 /**
- * The base implementation of `toNumber` which doesn't ensure correct
- * conversions of binary, hexadecimal, or octal string values.
+ * `toNumber` 的基本实现，但不能保证二进制，十六进制或八进制字符串值的正确转换。
  *
  * @private
- * @param {*} value The value to process.
- * @returns {number} Returns the number.
+ * @param {*} value 要处理的值
+ * @returns {number} 返回 number
  */
 function baseToNumber(value) {
   if (typeof value == 'number') {
@@ -21,4 +20,6 @@ function baseToNumber(value) {
   return +value
 }
 
-export default baseToNumber
+export default baseToNumber;
+
+// 关于这个 +number，相信都明白，就是强制转换为 Number 类型，就和 !! 转换为 Boolean 是一样的
