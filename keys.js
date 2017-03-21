@@ -58,4 +58,4 @@ const fn = function () {
 const fn1 = new fn();
 console.log(keys1(fn1));  // [ 'a', 'b' ]
 
-// 总结：也就是说，本方法 keys 就是用来重写了 Object.keys() 方法，我们平时在写的时候使用这个函数就可以了
+// 总结：也就是说，本方法 keys 就是用来重写了 Object.keys() 方法，我们平时在写的时候使用 test 中的函数就可以了

@@ -1,4 +1,4 @@
-// import getTag from './.internal/getTag.js'
+import getTag from './.internal/getTag.js'
 
 /**
  * 检查 `value` 是否可能是一个 `arguments` 对象
@@ -13,7 +13,7 @@ function isArguments(value) {
   return typeof value == 'object' && value != null && getTag(value) == '[object Arguments]';
 }
 
-// export default isArguments;
+export default isArguments;
 
 /**
 *

@@ -1,45 +1,45 @@
-/** Used for built-in method references. */
-const objectProto = Object.prototype
+/** 内置方法的引用 */
+const objectProto = Object.prototype;
 
-/** Used to check objects for own properties. */
-const hasOwnProperty = objectProto.hasOwnProperty
+/** 用于检查对象的自身属性 */
+const hasOwnProperty = objectProto.hasOwnProperty;
 
 /**
- * Used to resolve the
+ * 用于值的转换
  * [`toStringTag`](http://ecma-international.org/ecma-262/7.0/#sec-object.prototype.tostring)
- * of values.
+ *
  */
-const nativeObjectToString = objectProto.toString
+const nativeObjectToString = objectProto.toString;
 
-/** Built-in value references. */
-const symToStringTag = Symbol ? Symbol.toStringTag : undefined
+/** 内置值的引用 */
+const symToStringTag = Symbol ? Symbol.toStringTag : undefined;
 
 /**
- * A specialized version of `baseGetTag` which ignores `Symbol.toStringTag` values.
+ * `baseGetTag` 的一个特殊版本，它忽略 `Symbol.toStringTag` 值
  *
  * @private
- * @param {*} value The value to query.
- * @returns {string} Returns the raw `toStringTag`.
+ * @param {*} value 要查询的值
+ * @returns {string} 返回原始的 `toStringTag`
  */
 function getRawTag(value) {
-  const isOwn = hasOwnProperty.call(value, symToStringTag)
-  const tag = value[symToStringTag]
-  let unmasked = false
+  const isOwn = hasOwnProperty.call(value, symToStringTag);
+  const tag = value[symToStringTag];
+  let unmasked = false;
 
   try {
-    value[symToStringTag] = undefined
+    value[symToStringTag] = undefined;
     unmasked = true
   } catch (e) {}
 
-  const result = nativeObjectToString.call(value)
+  const result = nativeObjectToString.call(value);
   if (unmasked) {
     if (isOwn) {
-      value[symToStringTag] = tag
+      value[symToStringTag] = tag;
     } else {
-      delete value[symToStringTag]
+      delete value[symToStringTag];
     }
   }
-  return result
+  return result;
 }
 
-export default getRawTag
+export default getRawTag;

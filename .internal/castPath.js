@@ -3,18 +3,18 @@ import stringToPath from './stringToPath.js'
 import toString from '../toString.js'
 
 /**
- * Casts `value` to a path array if it's not one.
+ * 如果不是一个路径数组，则将 `value` 转换为路径数组
  *
  * @private
- * @param {*} value The value to inspect.
- * @param {Object} [object] The object to query keys on.
- * @returns {Array} Returns the cast property path array.
+ * @param {*} value 要检查的值
+ * @param {Object} [object] 查询键对象
+ * @returns {Array} 返回 cast 属性路径数组
  */
 function castPath(value, object) {
   if (Array.isArray(value)) {
-    return value
+    return value;
   }
-  return isKey(value, object) ? [value] : stringToPath(toString(value))
+  return isKey(value, object) ? [value] : stringToPath(toString(value));
 }
 
-export default castPath
+export default castPath;

@@ -1,12 +1,12 @@
 /**
- * The base implementation of `propertyOf` without support for deep paths.
+ * `propertyOf` 的基本实现不支持深层路径
  *
  * @private
- * @param {Object} object The object to query.
- * @returns {Function} Returns the new accessor function.
+ * @param {Object} object 要查询的对象
+ * @returns {Function} 返回新的访问器函数
  */
 function basePropertyOf(object) {
-  return (key) => object == null ? undefined : object[key]
+  return (key) => object == null ? undefined : object[key];
 }
 
-export default basePropertyOf
+export default basePropertyOf;

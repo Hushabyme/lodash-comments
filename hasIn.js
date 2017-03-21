@@ -1,11 +1,11 @@
 /**
- * Checks if `path` is a direct or inherited property of `object`.
+ * 检查 `path` 是否是 `object` 的直接或继承属性
  *
  * @since 4.0.0
  * @category Object
- * @param {Object} object The object to query.
- * @param {string} key The key to check.
- * @returns {boolean} Returns `true` if `key` exists, else `false`.
+ * @param {Object} object 要检查的对象
+ * @param {string} key 要检查的键
+ * @returns {boolean} 如果 `key` 存在，返回 `true`，否则返回 `false`
  * @see has, hasPath, hasPathIn
  * @example
  *
@@ -18,7 +18,7 @@
  * // => false
  */
 function hasIn(object, key) {
-  return object != null && key in Object(object)
+  return object != null && key in Object(object);
 }
 
-export default hasIn
+export default hasIn;

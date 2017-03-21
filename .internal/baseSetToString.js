@@ -1,10 +1,10 @@
 /**
- * The base implementation of `setToString` without support for hot loop shorting.
+ * `setToString` 的基本实现，但不支持热循环短路
  *
  * @private
- * @param {Function} func The function to modify.
- * @param {Function} string The `toString` result.
- * @returns {Function} Returns `func`.
+ * @param {Function} func 要修改的函数
+ * @param {Function} string `toString` 的结果
+ * @returns {Function} 返回 `func`
  */
 function baseSetToString(func, string) {
   return Object.defineProperty(func, 'toString', {

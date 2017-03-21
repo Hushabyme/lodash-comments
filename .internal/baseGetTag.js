@@ -24,4 +24,4 @@ function baseGetTag(value) {
     : objectToString(value);
 }
 
-export default baseGetTag
+export default baseGetTag;

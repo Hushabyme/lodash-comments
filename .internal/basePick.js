@@ -2,16 +2,15 @@ import basePickBy from './basePickBy.js'
 import hasIn from '../hasIn.js'
 
 /**
- * The base implementation of `pick` without support for individual
- * property identifiers.
+ * `pick` 的基本实现不支持单个属性标识符
  *
  * @private
- * @param {Object} object The source object.
- * @param {string[]} paths The property paths to pick.
- * @returns {Object} Returns the new object.
+ * @param {Object} object 源对象
+ * @param {string[]} paths 要挑选的属性路径
+ * @returns {Object} 返回新的对象
  */
 function basePick(object, paths) {
-  return basePickBy(object, paths, (value, path) => hasIn(object, path))
+  return basePickBy(object, paths, (value, path) => hasIn(object, path));
 }
 
-export default basePick
+export default basePick;

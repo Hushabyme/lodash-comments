@@ -2,15 +2,15 @@ import baseGet from './baseGet.js'
 import baseSlice from './baseSlice.js'
 
 /**
- * Gets the parent value at `path` of `object`.
+ * 获取 `object` 的 `path` 的父级的值
  *
  * @private
- * @param {Object} object The object to query.
- * @param {Array} path The path to get the parent value of.
- * @returns {*} Returns the parent value.
+ * @param {Object} object 要查询的对象
+ * @param {Array} path 获取父值的路径
+ * @returns {*} 返回父级的值
  */
 function parent(object, path) {
-  return path.length < 2 ? object : baseGet(object, baseSlice(path, 0, -1))
+  return path.length < 2 ? object : baseGet(object, baseSlice(path, 0, -1));
 }
 
-export default parent
+export default parent;

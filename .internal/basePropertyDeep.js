@@ -1,14 +1,14 @@
 import baseGet from './baseGet.js'
 
 /**
- * A specialized version of `baseProperty` which supports deep paths.
+ * `baseProperty` 的专门版本，支持深层路径
  *
  * @private
- * @param {Array|string} path The path of the property to get.
- * @returns {Function} Returns the new accessor function.
+ * @param {Array|string} path 获取属性的路径
+ * @returns {Function} 返回新的访问器函数
  */
 function basePropertyDeep(path) {
   return (object) => baseGet(object, path)
 }
 
-export default basePropertyDeep
+export default basePropertyDeep;

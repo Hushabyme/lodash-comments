@@ -1,24 +1,24 @@
 import isSymbol from '../isSymbol.js'
 
 /**
- * Compares values to sort them in ascending order.
+ * 比较值以按升序对它们排序
  *
  * @private
- * @param {*} value The value to compare.
- * @param {*} other The other value to compare.
- * @returns {number} Returns the sort order indicator for `value`.
+ * @param {*} value 要比较的值
+ * @param {*} other 其它要比较的值
+ * @returns {number} 返回 `value` 的排序顺序指示符
  */
 function compareAscending(value, other) {
   if (value !== other) {
-    const valIsDefined = value !== undefined
-    const valIsNull = value === null
-    const valIsReflexive = value === value
-    const valIsSymbol = isSymbol(value)
+    const valIsDefined = value !== undefined;
+    const valIsNull = value === null;
+    const valIsReflexive = value === value;
+    const valIsSymbol = isSymbol(value);
 
-    const othIsDefined = other !== undefined
-    const othIsNull = other === null
-    const othIsReflexive = other === other
-    const othIsSymbol = isSymbol(other)
+    const othIsDefined = other !== undefined;
+    const othIsNull = other === null;
+    const othIsReflexive = other === other;
+    const othIsSymbol = isSymbol(other);
 
     if ((!othIsNull && !othIsSymbol && !valIsSymbol && value > other) ||
         (valIsSymbol && othIsDefined && othIsReflexive && !othIsNull && !othIsSymbol) ||
@@ -32,10 +32,10 @@ function compareAscending(value, other) {
         (othIsNull && valIsDefined && valIsReflexive) ||
         (!othIsDefined && valIsReflexive) ||
         !othIsReflexive) {
-      return -1
+      return -1;
     }
   }
-  return 0
+  return 0;
 }
 
-export default compareAscending
+export default compareAscending;

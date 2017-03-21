@@ -12,9 +12,7 @@ import isTypedArray from '../isTypedArray.js'
 import toPlainObject from '../toPlainObject.js'
 
 /**
- * A specialized version of `baseMerge` for arrays and objects which performs
- * deep merges and tracks traversed objects enabling objects with circular
- * references to be merged.
+ * 用于执行具有要合并的循环引用的对象的数组和对象的 `baseMerge` 的专门版本
  *
  * @private
  * @param {Object} object The destination object.

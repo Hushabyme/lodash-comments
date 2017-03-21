@@ -1,23 +1,21 @@
 /**
- * The base implementation of `reduce` and `reduceRight` which iterates
- * over `collection` using `eachFunc`.
+ * `reduce` 和 `reduceRight` 的基本实现，它们使用 `eachFunc` 来遍历 `collection`
  *
  * @private
- * @param {Array|Object} collection The collection to iterate over.
- * @param {Function} iteratee The function invoked per iteration.
- * @param {*} accumulator The initial value.
- * @param {boolean} initAccum Specify using the first or last element of
- *  `collection` as the initial value.
- * @param {Function} eachFunc The function to iterate over `collection`.
- * @returns {*} Returns the accumulated value.
+ * @param {Array|Object} collection 迭代的集合
+ * @param {Function} iteratee 每次迭代调用该函数
+ * @param {*} accumulator 初始值
+ * @param {boolean} initAccum 使用 `collection` 的第一个或最后一个元素作为初始值
+ * @param {Function} eachFunc 该函数在 `collection` 上进行迭代
+ * @returns {*} 返回累加的值
  */
 function baseReduce(collection, iteratee, accumulator, initAccum, eachFunc) {
   eachFunc(collection, (value, index, collection) => {
     accumulator = initAccum
       ? (initAccum = false, value)
       : iteratee(accumulator, value, index, collection)
-  })
-  return accumulator
+  });
+  return accumulator;
 }
 
-export default baseReduce
+export default baseReduce;

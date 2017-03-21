@@ -1,20 +1,19 @@
 /**
- * A specialized version of `matchesProperty` for source values suitable
- * for strict equality comparisons, i.e. `===`.
+ * 适用于严格相等比较的源值的 `matchesProperty` 的专用版本，例如 `===`
  *
  * @private
- * @param {string} key The key of the property to get.
- * @param {*} srcValue The value to match.
- * @returns {Function} Returns the new spec function.
+ * @param {string} key 获得属性的 key
+ * @param {*} srcValue 要匹配的值
+ * @returns {Function} 返回新的指定的函数
  */
 function matchesStrictComparable(key, srcValue) {
   return (object) => {
     if (object == null) {
-      return false
+      return false;
     }
     return object[key] === srcValue &&
       (srcValue !== undefined || (key in Object(object)))
   }
 }
 
-export default matchesStrictComparable
+export default matchesStrictComparable;
