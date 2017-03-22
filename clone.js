@@ -1,18 +1,17 @@
 import baseClone from './.internal/baseClone.js'
 
-/** Used to compose bitmasks for cloning. */
-const CLONE_SYMBOLS_FLAG = 4
+/** 用于组合克隆的位掩码 */
+const CLONE_SYMBOLS_FLAG = 4;
 
 /**
- * Creates a shallow clone of `value`.
+ * 创建一个 `value` 的浅克隆
  *
- * **Note:** This method is loosely based on the
+ * **注意:** 该方法是基于
  * [structured clone algorithm](https://mdn.io/Structured_clone_algorithm)
- * and supports cloning arrays, array buffers, booleans, date objects, maps,
+ * 并且支持克隆 arrays, array buffers, booleans, date objects, maps,
  * numbers, `Object` objects, regexes, sets, strings, symbols, and typed
- * arrays. The own enumerable properties of `arguments` objects are cloned
- * as plain objects. An empty object is returned for uncloneable values such
- * as error objects, functions, DOM nodes, and WeakMaps.
+ * arrays. `arguments` 对象的自己的枚举属性被克隆为纯对象.
+ * 为不可克隆的值返回一个空对象作为错误对象，函数，DOM 节点和 WeakMaps
  *
  * @since 0.1.0
  * @category Lang

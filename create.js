@@ -1,13 +1,12 @@
 /**
- * Creates an object that inherits from the `prototype` object. If a
- * `properties` object is given, its own enumerable string keyed properties
- * are assigned to the created object.
+ * 创建从 `properties` 对象继承的对象
+ * 如果给出了一个 `properties` 对象，它自己的可枚举字符串键入的属性被分配给创建的对象
  *
  * @since 2.3.0
  * @category Object
- * @param {Object} prototype The object to inherit from.
- * @param {Object} [properties] The properties to assign to the object.
- * @returns {Object} Returns the new object.
+ * @param {Object} prototype 要继承的对象
+ * @param {Object} [properties] 要分配给对象的属性.
+ * @returns {Object} 返回新对象
  * @example
  *
  * function Shape() {
@@ -37,3 +36,5 @@ function create(prototype, properties) {
 }
 
 export default create
+
+// 该方法就是 Object.create() 方法的替代品

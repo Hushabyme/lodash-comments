@@ -1,10 +1,9 @@
 import baseIsEqual from './.internal/baseIsEqual.js'
 
 /**
- * Performs a deep comparison between two values to determine if they are
- * equivalent.
+ * 执行两个值之间的深度比较，以确定它们是否相等
  *
- * **Note:** This method supports comparing arrays, array buffers, booleans,
+ * **注意:** 该方法支持比较 arrays, array buffers, booleans,
  * date objects, error objects, maps, numbers, `Object` objects, regexes,
  * sets, strings, symbols, and typed arrays. `Object` objects are compared
  * by their own, not inherited, enumerable properties. Functions and DOM
@@ -12,9 +11,9 @@ import baseIsEqual from './.internal/baseIsEqual.js'
  *
  * @since 0.1.0
  * @category Lang
- * @param {*} value The value to compare.
- * @param {*} other The other value to compare.
- * @returns {boolean} Returns `true` if the values are equivalent, else `false`.
+ * @param {*} value 要比较的值
+ * @param {*} other 另一个要比较的值
+ * @returns {boolean} 如果值相等，则返回 `true`，否则返回 `false`
  * @example
  *
  * const object = { 'a': 1 }

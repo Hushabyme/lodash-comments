@@ -4,16 +4,15 @@ import baseClone from './.internal/baseClone.js'
 const CLONE_SYMBOLS_FLAG = 4
 
 /**
- * This method is like `clone` except that it accepts `customizer` which
- * is invoked to produce the cloned value. If `customizer` returns `undefined`,
- * cloning is handled by the method instead. The `customizer` is invoked with
- * up to four arguments (value [, index|key, object, stack]).
+ * 这个方法就像 `clone`， `customizer`，它被调用来产生克隆的值
+ * 如果 `customizer` 返回 `undefined`，克隆是由方法来处理的
+ * `customizer` 被最多四个参数调用（value [，index | key，object，stack]）
  *
  * @since 4.0.0
  * @category Lang
- * @param {*} value The value to clone.
- * @param {Function} [customizer] The function to customize cloning.
- * @returns {*} Returns the cloned value.
+ * @param {*} value 要克隆的值
+ * @param {Function} [customizer] 自定义克隆的函数
+ * @returns {*} 返回克隆后的值
  * @see cloneDeepWith
  * @example
  *

@@ -2,16 +2,15 @@ import customDefaultsMerge from './.internal/customDefaultsMerge.js'
 import mergeWith from './mergeWith.js'
 
 /**
- * This method is like `defaults` except that it recursively assigns
- * default properties.
+ * 这个方法就像 `defaults`，除了它递归地分配默认属性
  *
- * **Note:** This method mutates `object`.
+ * **注意:** 该方法改变了 `object`
  *
  * @since 3.10.0
  * @category Object
- * @param {Object} object The destination object.
- * @param {...Object} [sources] The source objects.
- * @returns {Object} Returns `object`.
+ * @param {Object} object 目标对象
+ * @param {...Object} [sources] 源对象
+ * @returns {Object} 返回 `object`
  * @see defaults
  * @example
  *

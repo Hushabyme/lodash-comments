@@ -5,16 +5,13 @@ import reduce from './reduce.js'
 const hasOwnProperty = Object.prototype.hasOwnProperty
 
 /**
- * Creates an object composed of keys generated from the results of running
- * each element of `collection` thru `iteratee`. The corresponding value of
- * each key is the number of times the key was returned by `iteratee`. The
- * iteratee is invoked with one argument: (value).
+ * 创建由运行 iteratee 的结果生成的键组成的对象将使用一个参数（值）进行调用
  *
  * @since 0.5.0
  * @category Collection
- * @param {Array|Object} collection The collection to iterate over.
- * @param {Function} iteratee The iteratee to transform keys.
- * @returns {Object} Returns the composed aggregate object.
+ * @param {Array|Object} collection 迭代的集合
+ * @param {Function} iteratee iteratee转换键
+ * @returns {Object} 返回组合的聚合对象
  * @example
  *
  * countBy([6.1, 4.2, 6.3], Math.floor)

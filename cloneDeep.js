@@ -1,16 +1,15 @@
 import baseClone from './.internal/baseClone.js'
 
-/** Used to compose bitmasks for cloning. */
 const CLONE_DEEP_FLAG = 1
 const CLONE_SYMBOLS_FLAG = 4
 
 /**
- * This method is like `clone` except that it recursively clones `value`.
+ * 这个方法就像 `clone`，除了它递归克隆 `value`
  *
  * @since 1.0.0
  * @category Lang
- * @param {*} value The value to recursively clone.
- * @returns {*} Returns the deep cloned value.
+ * @param {*} value 要递归克隆的值
+ * @returns {*} 返回深克隆之后的值
  * @see clone
  * @example
  *

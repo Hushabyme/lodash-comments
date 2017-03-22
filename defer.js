@@ -1,12 +1,11 @@
 /**
- * Defers invoking the `func` until the current call stack has cleared. Any
- * additional arguments are provided to `func` when it's invoked.
+ * 调用 `func` 直到当前调用堆栈清除为止。`func` 在调用时提供任何额外的参数。
  *
  * @since 0.1.0
  * @category Function
- * @param {Function} func The function to defer.
- * @param {...*} [args] The arguments to invoke `func` with.
- * @returns {number} Returns the timer id.
+ * @param {Function} func 延迟的功能
+ * @param {...*} [args] 调用 `func` 的参数
+ * @returns {number} 返回计时器ID
  * @example
  *
  * defer(text => console.log(text), 'deferred')

@@ -5,17 +5,15 @@ import baseConforms from './.internal/baseConforms.js'
 const CLONE_DEEP_FLAG = 1
 
 /**
- * Creates a function that invokes the predicate properties of `source` with
- * the corresponding property values of a given object, returning `true` if
- * all predicates return truthy, else `false`.
+ * 创建一个函数，使用给定对象的相应属性值调用`source`的谓词属性，
+ * 如果所有谓词都返回真值则返回 `true`，否则返回 `false`
  *
- * **Note:** The created function is equivalent to `conformsTo` with
- * `source` partially applied.
+ * **注意:** 创建的函数等价于部分应用了 `source` 的 `conformsTo`
  *
  * @since 4.0.0
  * @category Util
- * @param {Object} source The object of property predicates to conform to.
- * @returns {Function} Returns the new spec function.
+ * @param {Object} source 属性的对象认定是符合的
+ * @returns {Function} 返回新的指定的函数
  * @example
  *
  * const objects = [

@@ -2,17 +2,15 @@ import baseConformsTo from './.internal/baseConformsTo.js'
 import keys from './keys.js'
 
 /**
- * Checks if `object` conforms to `source` by invoking the predicate
- * properties of `source` with the corresponding property values of `object`.
+ * 通过调用 `source` 的谓词属性与 `object` 对应的属性值，检查 `object` 是否符合 `source'
  *
- * **Note:** This method is equivalent to `conforms` when `source` is
- * partially applied.
+ * **注意:** 部分应用 `source` 时，此方法等效于 `conforms`
  *
  * @since 4.14.0
  * @category Lang
- * @param {Object} object The object to inspect.
- * @param {Object} source The object of property predicates to conform to.
- * @returns {boolean} Returns `true` if `object` conforms, else `false`.
+ * @param {Object} object 要检查的对象
+ * @param {Object} source 属性的对象是符合的
+ * @returns {boolean} 如果对象符合，返回 `true`，否则返回 `false`
  * @example
  *
  * const object = { 'a': 1, 'b': 2 }

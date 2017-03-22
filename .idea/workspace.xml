@@ -2,31 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="daf699f9-e8f1-4cdc-82b8-ca516c21b5ce" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.internal/baseReduce.js" afterPath="$PROJECT_DIR$/.internal/baseReduce.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.internal/baseToNumber.js" afterPath="$PROJECT_DIR$/.internal/baseToNumber.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.internal/baseToString.js" afterPath="$PROJECT_DIR$/.internal/baseToString.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.internal/baseUniq.js" afterPath="$PROJECT_DIR$/.internal/baseUniq.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.internal/createCaseFirst.js" afterPath="$PROJECT_DIR$/.internal/createCaseFirst.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.internal/createCompounder.js" afterPath="$PROJECT_DIR$/.internal/createCompounder.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.internal/createMathOperation.js" afterPath="$PROJECT_DIR$/.internal/createMathOperation.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.internal/createRound.js" afterPath="$PROJECT_DIR$/.internal/createRound.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.internal/hasUnicodeWord.js" afterPath="$PROJECT_DIR$/.internal/hasUnicodeWord.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/add.js" afterPath="$PROJECT_DIR$/add.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/after.js" afterPath="$PROJECT_DIR$/after.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ary.js" afterPath="$PROJECT_DIR$/ary.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assignWith.js" afterPath="$PROJECT_DIR$/assignWith.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/at.js" afterPath="$PROJECT_DIR$/at.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/attempt.js" afterPath="$PROJECT_DIR$/attempt.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/before.js" afterPath="$PROJECT_DIR$/before.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bindKey.js" afterPath="$PROJECT_DIR$/bindKey.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/camelCase.js" afterPath="$PROJECT_DIR$/camelCase.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/capitalize.js" afterPath="$PROJECT_DIR$/capitalize.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/castArray.js" afterPath="$PROJECT_DIR$/castArray.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ceil.js" afterPath="$PROJECT_DIR$/ceil.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chunk.js" afterPath="$PROJECT_DIR$/chunk.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/isError.js" afterPath="$PROJECT_DIR$/isError.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upperFirst.js" afterPath="$PROJECT_DIR$/upperFirst.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/words.js" afterPath="$PROJECT_DIR$/words.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clamp.js" afterPath="$PROJECT_DIR$/clamp.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clone.js" afterPath="$PROJECT_DIR$/clone.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloneDeep.js" afterPath="$PROJECT_DIR$/cloneDeep.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloneDeepWith.js" afterPath="$PROJECT_DIR$/cloneDeepWith.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloneWith.js" afterPath="$PROJECT_DIR$/cloneWith.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compact.js" afterPath="$PROJECT_DIR$/compact.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cond.js" afterPath="$PROJECT_DIR$/cond.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conforms.js" afterPath="$PROJECT_DIR$/conforms.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conformsTo.js" afterPath="$PROJECT_DIR$/conformsTo.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/countBy.js" afterPath="$PROJECT_DIR$/countBy.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/create.js" afterPath="$PROJECT_DIR$/create.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/curry.js" afterPath="$PROJECT_DIR$/curry.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/curryRight.js" afterPath="$PROJECT_DIR$/curryRight.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/debounce.js" afterPath="$PROJECT_DIR$/debounce.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/defaultTo.js" afterPath="$PROJECT_DIR$/defaultTo.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/defaults.js" afterPath="$PROJECT_DIR$/defaults.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/defaultsDeep.js" afterPath="$PROJECT_DIR$/defaultsDeep.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/defer.js" afterPath="$PROJECT_DIR$/defer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/delay.js" afterPath="$PROJECT_DIR$/delay.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/difference.js" afterPath="$PROJECT_DIR$/difference.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/differenceBy.js" afterPath="$PROJECT_DIR$/differenceBy.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/differenceWith.js" afterPath="$PROJECT_DIR$/differenceWith.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/divide.js" afterPath="$PROJECT_DIR$/divide.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/drop.js" afterPath="$PROJECT_DIR$/drop.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dropRight.js" afterPath="$PROJECT_DIR$/dropRight.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dropRightWhile.js" afterPath="$PROJECT_DIR$/dropRightWhile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dropWhile.js" afterPath="$PROJECT_DIR$/dropWhile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/each.js" afterPath="$PROJECT_DIR$/each.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/endsWith.js" afterPath="$PROJECT_DIR$/endsWith.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eqDeep.js" afterPath="$PROJECT_DIR$/eqDeep.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/escape.js" afterPath="$PROJECT_DIR$/escape.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/escapeRegExp.js" afterPath="$PROJECT_DIR$/escapeRegExp.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/every.js" afterPath="$PROJECT_DIR$/every.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mergeWith.js" afterPath="$PROJECT_DIR$/mergeWith.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -43,23 +53,15 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="chunk.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chunk.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="8" column="33" lean-forward="false" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="clamp.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/clamp.js">
+    <leaf>
+      <file leaf-file-name="filter.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/filter.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+              <folding>
+                <element signature="e#0#52#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -79,44 +81,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.internal/compareAscending.js" />
-        <option value="$PROJECT_DIR$/.internal/compareMultiple.js" />
-        <option value="$PROJECT_DIR$/.internal/basePick.js" />
-        <option value="$PROJECT_DIR$/.internal/basePickBy.js" />
-        <option value="$PROJECT_DIR$/.internal/isIndex.js" />
-        <option value="$PROJECT_DIR$/.internal/baseSet.js" />
-        <option value="$PROJECT_DIR$/.internal/baseProperty.js" />
-        <option value="$PROJECT_DIR$/.internal/baseGet.js" />
-        <option value="$PROJECT_DIR$/.internal/basePropertyDeep.js" />
-        <option value="$PROJECT_DIR$/.internal/basePropertyOf.js" />
-        <option value="$PROJECT_DIR$/.internal/copyArray.js" />
-        <option value="$PROJECT_DIR$/.internal/basePullAll.js" />
-        <option value="$PROJECT_DIR$/.internal/basePullAt.js" />
-        <option value="$PROJECT_DIR$/.internal/baseUnset.js" />
-        <option value="$PROJECT_DIR$/last.js" />
-        <option value="$PROJECT_DIR$/.internal/parent.js" />
-        <option value="$PROJECT_DIR$/.internal/baseSlice.js" />
-        <option value="$PROJECT_DIR$/.internal/baseRange.js" />
-        <option value="$PROJECT_DIR$/.internal/baseSetToString.js" />
-        <option value="$PROJECT_DIR$/.internal/baseSome.js" />
-        <option value="E:/test/21 - func to string.html" />
-        <option value="$PROJECT_DIR$/.internal/baseSortedIndex.js" />
-        <option value="$PROJECT_DIR$/.internal/baseSortedIndexBy.js" />
-        <option value="$PROJECT_DIR$/.internal/baseSortedUniq.js" />
-        <option value="$PROJECT_DIR$/.internal/baseSum.js" />
-        <option value="$PROJECT_DIR$/.internal/baseToNumber.js" />
-        <option value="$PROJECT_DIR$/.internal/baseUniq.js" />
-        <option value="$PROJECT_DIR$/.internal/baseReduce.js" />
-        <option value="$PROJECT_DIR$/.internal/baseToString.js" />
-        <option value="$PROJECT_DIR$/.internal/createMathOperation.js" />
-        <option value="$PROJECT_DIR$/add.js" />
-        <option value="E:/test/22 - lodash/01 - after.html" />
-        <option value="$PROJECT_DIR$/after.js" />
-        <option value="$PROJECT_DIR$/ary.js" />
-        <option value="$PROJECT_DIR$/assignWith.js" />
-        <option value="$PROJECT_DIR$/at.js" />
-        <option value="$PROJECT_DIR$/attempt.js" />
-        <option value="$PROJECT_DIR$/isError.js" />
         <option value="$PROJECT_DIR$/before.js" />
         <option value="$PROJECT_DIR$/bindKey.js" />
         <option value="$PROJECT_DIR$/words.js" />
@@ -130,6 +94,44 @@
         <option value="$PROJECT_DIR$/ceil.js" />
         <option value="$PROJECT_DIR$/.internal/createRound.js" />
         <option value="$PROJECT_DIR$/chunk.js" />
+        <option value="E:/test/22 - lodash/02 - high-order function.html" />
+        <option value="$PROJECT_DIR$/clamp.js" />
+        <option value="$PROJECT_DIR$/clone.js" />
+        <option value="$PROJECT_DIR$/cloneDeep.js" />
+        <option value="$PROJECT_DIR$/cloneDeepWith.js" />
+        <option value="$PROJECT_DIR$/cloneWith.js" />
+        <option value="E:/lodash_comments/Array/02 - compact/test/02 - compact.js" />
+        <option value="$PROJECT_DIR$/compact.js" />
+        <option value="$PROJECT_DIR$/cond.js" />
+        <option value="$PROJECT_DIR$/conforms.js" />
+        <option value="$PROJECT_DIR$/conformsTo.js" />
+        <option value="$PROJECT_DIR$/countBy.js" />
+        <option value="$PROJECT_DIR$/create.js" />
+        <option value="$PROJECT_DIR$/curry.js" />
+        <option value="$PROJECT_DIR$/curryRight.js" />
+        <option value="$PROJECT_DIR$/debounce.js" />
+        <option value="E:/test/23 - deepClone.html" />
+        <option value="$PROJECT_DIR$/defaults.js" />
+        <option value="$PROJECT_DIR$/defaultsDeep.js" />
+        <option value="$PROJECT_DIR$/mergeWith.js" />
+        <option value="$PROJECT_DIR$/defaultTo.js" />
+        <option value="$PROJECT_DIR$/defer.js" />
+        <option value="E:/test/24 - setTimeout arguments.html" />
+        <option value="$PROJECT_DIR$/delay.js" />
+        <option value="$PROJECT_DIR$/difference.js" />
+        <option value="$PROJECT_DIR$/differenceBy.js" />
+        <option value="$PROJECT_DIR$/differenceWith.js" />
+        <option value="$PROJECT_DIR$/divide.js" />
+        <option value="$PROJECT_DIR$/drop.js" />
+        <option value="$PROJECT_DIR$/dropRight.js" />
+        <option value="$PROJECT_DIR$/dropRightWhile.js" />
+        <option value="$PROJECT_DIR$/dropWhile.js" />
+        <option value="$PROJECT_DIR$/each.js" />
+        <option value="$PROJECT_DIR$/endsWith.js" />
+        <option value="$PROJECT_DIR$/eqDeep.js" />
+        <option value="$PROJECT_DIR$/escape.js" />
+        <option value="$PROJECT_DIR$/escapeRegExp.js" />
+        <option value="$PROJECT_DIR$/every.js" />
       </list>
     </option>
   </component>
@@ -169,6 +171,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -183,7 +186,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -277,12 +279,13 @@
       <workItem from="1489735888646" duration="11301000" />
       <workItem from="1489924209699" duration="4216000" />
       <workItem from="1490009968645" duration="3612000" />
-      <workItem from="1490074091022" duration="17327000" />
+      <workItem from="1490074091022" duration="17934000" />
+      <workItem from="1490146258280" duration="7991000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38217000" />
+    <option name="totallyTimeSpent" value="46815000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1060" extended-state="7" />
@@ -318,270 +321,14 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.internal/baseIndexOfWith.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.internal/basePullAll.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1247">
-          <caret line="43" column="15" lean-forward="false" selection-start-line="43" selection-start-column="15" selection-end-line="43" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#36#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.internal/isIndex.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="21" column="23" lean-forward="false" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/last.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="17" column="20" lean-forward="false" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.internal/baseGet.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="4" column="3" lean-forward="false" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#36#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.internal/parent.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="29" lean-forward="false" selection-start-line="0" selection-start-column="29" selection-end-line="0" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.internal/baseUnset.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="2" column="25" lean-forward="false" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.internal/basePullAt.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="30" lean-forward="false" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.internal/baseRange.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.internal/baseEach.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.internal/baseSome.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="20" column="24" lean-forward="false" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.internal/baseSetToString.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/test/21 - func to string.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="24" column="39" lean-forward="true" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.internal/baseSortBy.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="18" column="26" lean-forward="false" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.internal/baseSortedIndex.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="14" column="50" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="50" />
-          <folding>
-            <element signature="e#0#54#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.internal/baseSortedIndexBy.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="573">
-          <caret line="58" column="42" lean-forward="false" selection-start-line="58" selection-start-column="42" selection-end-line="58" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.internal/baseSortedUniq.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="19" column="78" lean-forward="false" selection-start-line="19" selection-start-column="78" selection-end-line="19" selection-end-column="78" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.internal/baseSum.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="22" column="23" lean-forward="false" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.internal/copyArray.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="19" column="25" lean-forward="false" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.internal/freeGlobal.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="1" column="93" lean-forward="false" selection-start-line="1" selection-start-column="93" selection-end-line="1" selection-end-column="93" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.internal/baseUniq.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2059">
-          <caret line="71" column="24" lean-forward="false" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#36#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.internal/baseReduce.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="15" column="15" lean-forward="false" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.internal/baseToNumber.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="7" column="2" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.internal/baseToString.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="3" column="23" lean-forward="false" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#36#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.internal/createMathOperation.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="11" column="30" lean-forward="false" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#44#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/test/22 - lodash/01 - after.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="29" column="47" lean-forward="false" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/floor.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignWith.js">
+    <entry file="file://$PROJECT_DIR$/bindKey.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="116">
           <caret line="4" column="5" lean-forward="false" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#31#81#0" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="e#31#81#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/isError.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="696">
-          <caret line="24" column="32" lean-forward="false" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/attempt.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="22" column="34" lean-forward="false" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/at.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -593,149 +340,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/add.js">
+    <entry file="file://E:/test/22 - lodash/02 - high-order function.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="754">
-          <caret line="26" column="22" lean-forward="false" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ary.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="4" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/after.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="6" column="31" lean-forward="false" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bindKey.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1283">
-          <caret line="4" column="5" lean-forward="false" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#31#81#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.internal/asciiWords.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.internal/hasUnicodeWord.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.internal/unicodeWords.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1341">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/words.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.internal/createCompounder.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/camelCase.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="725">
-          <caret line="25" column="3" lean-forward="false" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.internal/createCaseFirst.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="8" column="74" lean-forward="false" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="74" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/upperFirst.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="8" column="30" lean-forward="false" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/capitalize.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="5" column="15" lean-forward="true" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.internal/createRound.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="17" column="37" lean-forward="true" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ceil.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="42" lean-forward="false" selection-start-line="0" selection-start-column="42" selection-end-line="0" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/castArray.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="36" column="23" lean-forward="true" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.internal/baseSlice.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="870">
-          <caret line="30" column="25" lean-forward="false" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+        <state relative-caret-position="309">
+          <caret line="13" column="2" lean-forward="false" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
           <folding />
         </state>
       </provider>
@@ -750,9 +358,413 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/clamp.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="631">
+          <caret line="49" column="10" lean-forward="false" selection-start-line="49" selection-start-column="10" selection-end-line="49" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloneDeep.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="11" column="25" lean-forward="false" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloneDeepWith.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-36">
+          <caret line="13" column="25" lean-forward="false" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.internal/baseClone.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="18" column="10" lean-forward="false" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloneWith.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-442">
+          <caret line="0" column="40" lean-forward="true" selection-start-line="0" selection-start-column="40" selection-end-line="0" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/lodash_comments/Array/02 - compact/test/02 - compact.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="27" selection-end-column="32" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/lodash_comments/Array/02 - compact/02 - compact.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-239">
+          <caret line="18" column="2" lean-forward="true" selection-start-line="18" selection-start-column="2" selection-end-line="32" selection-end-column="4" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/compact.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1008">
+          <caret line="68" column="3" lean-forward="true" selection-start-line="68" selection-start-column="3" selection-end-line="68" selection-end-column="3" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.internal/arrayMap.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cond.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-471">
+          <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clone.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="40" lean-forward="false" selection-start-line="0" selection-start-column="40" selection-end-line="0" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conforms.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="15" column="32" lean-forward="false" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#48#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conformsTo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="12" column="51" lean-forward="false" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#58#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/countBy.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="13" column="30" lean-forward="false" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#60#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/create.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="718">
+          <caret line="39" column="31" lean-forward="false" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/curryRight.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="2" column="9" lean-forward="false" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/curry.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="2" column="35" lean-forward="false" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/test/23 - deepClone.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="754">
+          <caret line="26" column="46" lean-forward="false" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/debounce.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-232">
+          <caret line="16" column="51" lean-forward="true" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deburr.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="21" column="33" lean-forward="true" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/defaults.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="631">
+          <caret line="54" column="9" lean-forward="false" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.internal/customDefaultsMerge.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#38#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mergeWith.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="e#24#72#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/defaultsDeep.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="6" column="26" lean-forward="true" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#68#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/defaultTo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="8" column="21" lean-forward="false" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/test/24 - setTimeout arguments.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="26" column="51" lean-forward="false" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/defer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="10" column="47" lean-forward="false" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/delay.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="602">
+          <caret line="28" column="33" lean-forward="false" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/difference.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="15" column="29" lean-forward="false" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/differenceBy.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="22" column="41" lean-forward="false" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/differenceWith.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="18" column="29" lean-forward="false" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.internal/createMathOperation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#44#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/divide.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="696">
+          <caret line="24" column="15" lean-forward="false" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dropRight.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drop.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dropRightWhile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="11" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dropWhile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="11" column="35" lean-forward="false" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forEach.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-87">
+          <caret line="6" column="79" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="6" selection-end-column="79" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/each.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="7" column="24" lean-forward="false" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eachRight.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/endsWith.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-116">
+          <caret line="8" column="53" lean-forward="false" selection-start-line="8" selection-start-column="53" selection-end-line="8" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eq.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-123">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eqDeep.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="27" column="31" lean-forward="false" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/escape.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-123">
+          <caret line="18" column="2" lean-forward="true" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/every.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="602">
+          <caret line="34" column="38" lean-forward="false" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/escapeRegExp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="8" column="8" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/filter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#52#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

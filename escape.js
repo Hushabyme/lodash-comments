@@ -7,15 +7,14 @@ const htmlEscapes = {
   "'": '&#39'
 }
 
-/** Used to match HTML entities and HTML characters. */
+/** 用于匹配 HTML 实体和 HTML 字符 */
 const reUnescapedHtml = /[&<>"']/g
 const reHasUnescapedHtml = RegExp(reUnescapedHtml.source)
 
 /**
- * Converts the characters "&", "<", ">", '"', and "'" in `string` to their
- * corresponding HTML entities.
+ *将 `string` 中的字符 '＆', '<', '>', '"' 和 "'" 转换为相应的 HTML 实体
  *
- * **Note:** No other characters are escaped. To escape additional
+ * **Note:** 没有其他字符被转义 To escape additional
  * characters use a third-party library like [_he_](https://mths.be/he).
  *
  * Though the ">" character is escaped for symmetry, characters like

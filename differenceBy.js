@@ -4,20 +4,17 @@ import isArrayLikeObject from './isArrayLikeObject.js'
 import last from './last.js'
 
 /**
- * This method is like `difference` except that it accepts `iteratee` which
- * is invoked for each element of `array` and `values` to generate the criterion
- * by which they're compared. The order and references of result values are
- * determined by the first array. The iteratee is invoked with one argument:
- * (value).
+ * 这个方法就像 `difference`，除了它接受对 `array` 和 `values` 的每个元素调用的 `iteratee`
+ * 以生成与之进行比较的标准。结果值的顺序和引用由第一个数组确定。iteratee被调用一个参数:(value)
  *
  * **Note:** Unlike `pullAllBy`, this method returns a new array.
  *
  * @since 4.0.0
  * @category Array
- * @param {Array} array The array to inspect.
- * @param {...Array} [values] The values to exclude.
- * @param {Function} iteratee The iteratee invoked per element.
- * @returns {Array} Returns the new array of filtered values.
+ * @param {Array} array 检查的数组
+ * @param {...Array} [values] 要排除的值
+ * @param {Function} iteratee 每个元素调用 iteratee
+ * @returns {Array} 返回过滤后的新数组
  * @example
  *
  * differenceBy([2.1, 1.2], [2.3, 3.4], Math.floor)

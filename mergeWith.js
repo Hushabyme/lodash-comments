@@ -1,3 +1,8 @@
+/*
+*
+* 该方法已经被废弃？
+*
+* */
 import baseMerge from './.internal/baseMerge.js'
 import createAssigner from './.internal/createAssigner.js'
 

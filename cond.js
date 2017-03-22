@@ -1,15 +1,13 @@
 import arrayMap from './.internal/arrayMap.js'
 
 /**
- * Creates a function that iterates over `pairs` and invokes the corresponding
- * function of the first predicate to return truthy. The predicate-function
- * pairs are invoked with the `this` binding and arguments of the created
- * function.
+ * 创建一个迭代对的函数，并调用第一个谓词的相应函数来返回 true
+ * 谓词函数对用 `this` 绑定和创建的函数的参数调用。
  *
  * @since 4.0.0
  * @category Util
- * @param {Array} pairs The predicate-function pairs.
- * @returns {Function} Returns the new composite function.
+ * @param {Array} pairs 谓词函数对
+ * @returns {Function} 返回新的复合函数
  * @example
  *
  * const func = cond([

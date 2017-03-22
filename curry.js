@@ -1,3 +1,8 @@
+/*
+*
+* 该方法被废弃了？为什么找不到  createWrap.js 文件？
+*
+* */
 import createWrap from './.internal/createWrap.js'
 
 /** Used to compose bitmasks for function metadata. */

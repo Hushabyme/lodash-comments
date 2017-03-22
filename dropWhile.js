@@ -1,15 +1,15 @@
 import baseWhile from './.internal/baseWhile.js'
 
 /**
- * Creates a slice of `array` excluding elements dropped from the beginning.
- * Elements are dropped until `predicate` returns falsey. The predicate is
- * invoked with three arguments: (value, index, array).
+ * 创建一个 `array` 的 slice，不包括从开始位置删除的元素
+ * 元素被删除，直到 `predicate` 返回 falsey
+ * 谓词被调用三个参数：（value，index，array）
  *
  * @since 3.0.0
  * @category Array
- * @param {Array} array The array to query.
- * @param {Function} predicate The function invoked per iteration.
- * @returns {Array} Returns the slice of `array`.
+ * @param {Array} array 要查询的数组
+ * @param {Function} predicate 每次迭代调用该函数
+ * @returns {Array} 返回被切割后的 `array`
  * @example
  *
  * const users = [

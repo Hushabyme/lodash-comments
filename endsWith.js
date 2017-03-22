@@ -1,13 +1,12 @@
 /**
- * Checks if `string` ends with the given target string.
+ * 检查 `string` 是否以给定的目标字符串结束.
  *
  * @since 3.0.0
  * @category String
- * @param {string} [string=''] The string to inspect.
- * @param {string} [target] The string to search for.
- * @param {number} [position=string.length] The position to search up to.
- * @returns {boolean} Returns `true` if `string` ends with `target`,
- *  else `false`.
+ * @param {string} [string=''] 查询的字符串
+ * @param {string} [target] 要搜索的字符串
+ * @param {number} [position=string.length] 搜索的位置
+ * @returns {boolean} 如果 `string` 以 `target` 结尾，否则返回 `true`
  * @see includes, startsWith
  * @example
  *

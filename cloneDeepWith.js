@@ -5,13 +5,13 @@ const CLONE_DEEP_FLAG = 1
 const CLONE_SYMBOLS_FLAG = 4
 
 /**
- * This method is like `cloneWith` except that it recursively clones `value`.
+ * 这个方法就像 `cloneWith`，除了它递归克隆 `value`
  *
  * @since 4.0.0
  * @category Lang
- * @param {*} value The value to recursively clone.
- * @param {Function} [customizer] The function to customize cloning.
- * @returns {*} Returns the deep cloned value.
+ * @param {*} value 要递归克隆的值
+ * @param {Function} [customizer] 自定义克隆的功能
+ * @returns {*} 返回深克隆之后的值
  * @see cloneWith
  * @example
  *

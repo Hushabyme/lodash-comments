@@ -1,19 +1,14 @@
 import isObject from './isObject.js'
 
 /**
- * Creates a debounced function that delays invoking `func` until after `wait`
- * milliseconds have elapsed since the last time the debounced function was
- * invoked. The debounced function comes with a `cancel` method to cancel
- * delayed `func` invocations and a `flush` method to immediately invoke them.
- * Provide `options` to indicate whether `func` should be invoked on the
- * leading and/or trailing edge of the `wait` timeout. The `func` is invoked
- * with the last arguments provided to the debounced function. Subsequent
- * calls to the debounced function return the result of the last `func`
- * invocation.
+ * 创建一个去抖动的函数，延迟调用`func`，直到上次调用去抖动函数后等待几毫秒
+ * `debounced` 函数带有一个 `cancel` 方法来取消延迟的 `func` 调用和 `flush` 方法来立即调用它们
+ * 提供 `options` 来指示是否应该在 `wait` 超时的前沿和/或后沿调用 `func`
+ * 使用提供给去抖动函数的最后一个参数来调用 `func`
+ * 对去反函数的后续调用返回最后一个 `func` 调用的结果
  *
- * **Note:** If `leading` and `trailing` options are `true`, `func` is
- * invoked on the trailing edge of the timeout only if the debounced function
- * is invoked more than once during the `wait` timeout.
+ * **注意:** 如果 `leading` 和 `trailing` 选项是 `true`
+ * `func` 上调用只有 `wait` 暂停时去抖函数被调用多次超时的后缘
  *
  * If `wait` is `0` and `leading` is `false`, `func` invocation is deferred
  * until the next tick, similar to `setTimeout` with a timeout of `0`.

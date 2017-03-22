@@ -3,18 +3,17 @@ import baseFlatten from './.internal/baseFlatten.js'
 import isArrayLikeObject from './isArrayLikeObject.js'
 
 /**
- * Creates an array of `array` values not included in the other given arrays
+ * 创建不包含在其他给定数组中的数组的数组用于相等比较
+ * 结果值的顺序和引用由第一个数组确定
  * using [`SameValueZero`](http://ecma-international.org/ecma-262/7.0/#sec-samevaluezero)
- * for equality comparisons. The order and references of result values are
- * determined by the first array.
  *
- * **Note:** Unlike `pullAll`, this method returns a new array.
+ * **注意:** 不像 `pullAll`, 该方法返回一个新的数组
  *
  * @since 0.1.0
  * @category Array
- * @param {Array} array The array to inspect.
- * @param {...Array} [values] The values to exclude.
- * @returns {Array} Returns the new array of filtered values.
+ * @param {Array} array 检查的函数
+ * @param {...Array} [values] 要排除的值
+ * @returns {Array} 返回过滤后的新数组
  * @see union, unionBy, unionWith, without, xor, xorBy, xorWith,
  * @example
  *
