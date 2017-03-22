@@ -1,12 +1,11 @@
 /**
- * Checks if `value` is greater than `other`.
+ * 检查 `value` 是否大于另一个 `other`
  *
  * @since 3.9.0
  * @category Lang
- * @param {*} value The value to compare.
- * @param {*} other The other value to compare.
- * @returns {boolean} Returns `true` if `value` is greater than `other`,
- *  else `false`.
+ * @param {*} value 要比较的值
+ * @param {*} other 另一个要比较的值
+ * @returns {boolean} 如果 `value` 大于 `other`，则返回 `true`，否则返回 `false`
  * @see gte, lt, lte
  * @example
  *

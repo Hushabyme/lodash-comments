@@ -1,8 +1,7 @@
 /**
- * Iterates over own enumerable string keyed properties of an object and
- * invokes `iteratee` for each property. The iteratee is invoked with three
- * arguments: (value, key, object). Iteratee functions may exit iteration
- * early by explicitly returning `false`.
+ * 迭代一个对象的自己可枚举的字符串键控属性，并为每个属性调用 `iteratee`
+ * 迭代器被调用三个位置：（value，key，object）
+ * Iteratee 函数可以通过明确返回 `false` 来提早退出迭代
  *
  * @since 0.3.0
  * @category Object

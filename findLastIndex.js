@@ -1,8 +1,7 @@
 import baseFindIndex from './.internal/baseFindIndex.js'
 
 /**
- * This method is like `findIndex` except that it iterates over elements
- * of `collection` from right to left.
+ * 这个方法就像 `findIndex`，除了它从右到左遍历 `collection` 的元素
  *
  * @since 2.0.0
  * @category Array

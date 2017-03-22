@@ -2,11 +2,10 @@ import arrayFilter from './.internal/arrayFilter.js'
 import baseFilter from './.internal/baseFilter.js'
 
 /**
- * Iterates over elements of `collection`, returning an array of all elements
- * `predicate` returns truthy for. The predicate is invoked with three
- * arguments: (value, index|key, collection).
+ * 迭代 `collection` 的元素，返回所有元素的数组 `predicate` 返回 `true`
+ * 谓词被调用三个参数:(value，index | key，collection)
  *
- * **Note:** Unlike `remove`, this method returns a new array.
+ * **注意:** 不像 `remove`, 该方法返回新的数组
  *
  * @since 0.1.0
  * @category Collection

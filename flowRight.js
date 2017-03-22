@@ -1,8 +1,7 @@
 import flow from './flow.js'
 
 /**
- * This method is like `flow` except that it composes a function that
- * invokes the given functions from right to left.
+ * 该方法和 `flow` 一致，不过是从右到左
  *
  * @since 3.0.0
  * @category Util

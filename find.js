@@ -1,10 +1,15 @@
+/*
+*
+* 该方法被废弃了？
+*
+* */
+
 import createFind from './.internal/createFind.js'
 import findIndex from './findIndex.js'
 
 /**
- * Iterates over elements of `collection`, returning the first element
- * `predicate` returns truthy for. The predicate is invoked with three
- * arguments: (value, index|key, collection).
+ * 迭代 `collection` 的元素，返回第一个元素 `predicate` 返回 `true`
+ * 谓词被调用三个参数:(value，index | key，collection)
  *
  * @since 0.1.0
  * @category Collection

@@ -4,10 +4,9 @@ import castArrayLikeObject from './.internal/castArrayLikeObject.js'
 import last from './last.js'
 
 /**
- * This method is like `intersection` except that it accepts `comparator`
- * which is invoked to compare elements of `arrays`. The order and references
- * of result values are determined by the first array. The comparator is
- * invoked with two arguments: (arrVal, othVal).
+ * 这个方法就像 `intersection`，除了它接受 `comparator`，它被调用来比较 `array` 的元素
+ * 结果值的顺序和引用由第一个数组确定
+ * 比较器被调用两个参数：（arrVal，othVal）。
  *
  * @since 4.0.0
  * @category Array

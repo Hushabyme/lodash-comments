@@ -1,3 +1,9 @@
+/*
+ *
+ * 该方法被废弃了？
+ *
+ * */
+
 import createFind from './.internal/createFind.js'
 import findLastIndex from './findLastIndex.js'
 

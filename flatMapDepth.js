@@ -2,8 +2,7 @@ import baseFlatten from './.internal/baseFlatten.js'
 import map from './map.js'
 
 /**
- * This method is like `flatMap` except that it recursively flattens the
- * mapped results up to `depth` times.
+ * 这个方法就像 `flatMap`，不同的是它递归地将映射的结果展开到 `depth`
  *
  * @since 4.7.0
  * @category Collection

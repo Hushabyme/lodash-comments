@@ -1,7 +1,7 @@
 import baseFlatten from './.internal/baseFlatten.js'
 
 /**
- * Flattens `array` a single level deep.
+ * 展开 `array` 一级深度
  *
  * @since 0.1.0
  * @category Array

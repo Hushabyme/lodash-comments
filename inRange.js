@@ -1,10 +1,7 @@
 import baseInRange from './.internal/baseInRange.js'
 
 /**
- * Checks if `n` is between `start` and up to, but not including, `end`. If
- * `end` is not specified, it's set to `start` with `start` then set to `0`.
- * If `start` is greater than `end` the params are swapped to support
- * negative ranges.
+ * 判断 number 是否在给定的区间内
  *
  * @since 3.3.0
  * @category Number

@@ -1,7 +1,7 @@
 import createRound from './.internal/createRound.js'
 
 /**
- * Computes `number` rounded down to `precision`.
+ * 计算 `number` 向下舍入为 `precision`
  *
  * @since 3.10.0
  * @category Math
@@ -22,3 +22,12 @@ import createRound from './.internal/createRound.js'
 const floor = createRound('floor')
 
 export default floor
+
+/*
+*
+* 思考：
+*
+* 我们可以自己使用 Math.floor() 来代替它
+* 为什么 `lodash` 要有这个方法呢？目的就是为了一致性！而不是看起来很简单，所以没有必要
+*
+* */

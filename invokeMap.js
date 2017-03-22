@@ -3,10 +3,9 @@ import invoke from './invoke.js'
 import isArrayLike from './isArrayLike.js'
 
 /**
- * Invokes the method at `path` of each element in `collection`, returning
- * an array of the results of each invoked method. Any additional arguments
- * are provided to each invoked method. If `path` is a function, it's invoked
- * for, and `this` bound to, each element in `collection`.
+ * 在 `collection` 中调用每个元素的 `path` 方法，返回每个被调用方法的结果数组
+ * 每个被调用的方法都提供了任何其他参数
+ * 如果 `path` 是一个函数，它被调用，`this` 绑定到 `collection` 中的每个元素上
  *
  * @since 4.0.0
  * @category Collection

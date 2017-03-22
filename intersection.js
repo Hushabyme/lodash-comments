@@ -3,10 +3,9 @@ import baseIntersection from './.internal/baseIntersection.js'
 import castArrayLikeObject from './.internal/castArrayLikeObject.js'
 
 /**
- * Creates an array of unique values that are included in all given arrays
+ * 创建包含在所有给定数组中的唯一值数组为了等值比较
+ * 结果值的顺序和引用由第一个数组确定
  * using [`SameValueZero`](http://ecma-international.org/ecma-262/7.0/#sec-samevaluezero)
- * for equality comparisons. The order and references of result values are
- * determined by the first array.
  *
  * @since 0.1.0
  * @category Array

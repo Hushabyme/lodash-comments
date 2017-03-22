@@ -1,6 +1,5 @@
 /**
- * This method is like `find` except that it returns the key of the first
- * element `predicate` returns truthy for instead of the element itself.
+ * 这个方法就像 `find`，除了它返回第一个元素的键 `predicate` 返回 `true` 代替元素本身
  *
  * @since 1.1.0
  * @category Object

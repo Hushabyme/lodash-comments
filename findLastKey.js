@@ -2,8 +2,7 @@ import baseFindKey from './.internal/baseFindKey.js'
 import baseForOwnRight from './.internal/baseForOwnRight.js'
 
 /**
- * This method is like `findKey` except that it iterates over elements of
- * a collection in the opposite order.
+ * 这个方法就像 `findKey`，除了它以相反的顺序迭代集合的元素
  *
  * @since 2.0.0
  * @category Object

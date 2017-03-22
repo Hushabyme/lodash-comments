@@ -1,3 +1,8 @@
+/*
+*
+* 该方法已经废弃？
+*
+* */
 import createWrap from './.internal/createWrap.js'
 
 /** Used to compose bitmasks for function metadata. */

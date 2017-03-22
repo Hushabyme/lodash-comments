@@ -5,11 +5,10 @@ import reduce from './reduce.js'
 const hasOwnProperty = Object.prototype.hasOwnProperty
 
 /**
- * Creates an object composed of keys generated from the results of running
- * each element of `collection` thru `iteratee`. The order of grouped values
- * is determined by the order they occur in `collection`. The corresponding
- * value of each key is an array of elements responsible for generating the
- * key. The iteratee is invoked with one argument: (value).
+ * 创建一个由运行 `collection` 到 `iteratee` 的每个元素的结果生成的按键组成的对象
+ * 分组值的顺序由它们在 `collection` 中发生的顺序决定
+ * 每个 key 的对应值是负责生成密钥的元素数组
+ * iteratee被调用一个参数：（value）
  *
  * @since 0.1.0
  * @category Collection

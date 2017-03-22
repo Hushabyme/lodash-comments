@@ -1,12 +1,11 @@
 /**
- * Composes a function that returns the result of invoking the given functions
- * with the `this` binding of the created function, where each successive
- * invocation is supplied the return value of the previous.
+ * 组合一个函数，返回使用已创建函数的 `this` 绑定来调用给定函数的结果，
+ * 其中每个连续调用都提供前一个函数的返回值
  *
  * @since 3.0.0
  * @category Util
- * @param {Function[]} [funcs] The functions to invoke.
- * @returns {Function} Returns the new composite function.
+ * @param {Function[]} [funcs] 调用的函数
+ * @returns {Function} 返回新的复合函数
  * @see flowRight
  * @example
  *
@@ -37,3 +36,12 @@ function flow(funcs) {
 }
 
 export default flow
+
+/*
+*
+* 思考：
+*
+* 这个函数完美的诠释了函数式编程的思想，那就是 "组合"
+* 也就是将一个个的小函数组装成大型函数
+*
+* */

@@ -4,11 +4,10 @@ import castArrayLikeObject from './.internal/castArrayLikeObject.js'
 import last from './last.js'
 
 /**
- * This method is like `intersection` except that it accepts `iteratee`
- * which is invoked for each element of each `arrays` to generate the criterion
- * by which they're compared. The order and references of result values are
- * determined by the first array. The iteratee is invoked with one argument:
- * (value).
+ * 这个方法就像 `intersection`，除了它接受 `iteratee`，
+ * 它为每个 `arrays` 的每个元素调用，以生成与之比较的标准
+ * 结果值的顺序和引用由第一个数组确定
+ * iteratee被调用一个参数：（value）。
  *
  * @since 4.0.0
  * @category Array

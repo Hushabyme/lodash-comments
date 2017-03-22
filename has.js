@@ -1,8 +1,8 @@
 /** Used to check objects for own properties. */
-const hasOwnProperty = Object.prototype.hasOwnProperty
+const hasOwnProperty = Object.prototype.hasOwnProperty;
 
 /**
- * Checks if `key` is a direct property of `object`.
+ * 检查 `key` 是否为 `object` 的直接属性
  *
  * @since 0.1.0
  * @category Object

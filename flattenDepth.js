@@ -1,7 +1,7 @@
 import baseFlatten from './.internal/baseFlatten.js'
 
 /**
- * Recursively flatten `array` up to `depth` times.
+ * 递归展开 `array` 的 `depth` 的次数
  *
  * @since 4.4.0
  * @category Array

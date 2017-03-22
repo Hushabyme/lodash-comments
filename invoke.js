@@ -4,7 +4,7 @@ import parent from './.internal/parent.js'
 import toKey from './.internal/toKey.js'
 
 /**
- * Invokes the method at `path` of `object`.
+ * 调用 `object `的 `path` 方法
  *
  * @since 4.0.0
  * @category Object
