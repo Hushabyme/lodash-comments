@@ -2,7 +2,7 @@ import baseGetTag from './.internal/baseGetTag.js'
 import isObjectLike from './isObjectLike.js'
 import nodeUtil from './.internal/nodeUtil.js'
 
-/* Node.js helper references. */
+/* Node.js helper 引用 */
 const nodeIsArrayBuffer = nodeUtil && nodeUtil.isArrayBuffer
 
 /**
