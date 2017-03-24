@@ -35,3 +35,11 @@ const merge = createAssigner((object, source, srcIndex) => {
 })
 
 export default merge
+
+/*
+*
+* 思考：
+*
+* 该方法的目的是用于将对象相同的属性拼接起来
+*
+* */

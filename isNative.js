@@ -19,13 +19,12 @@ const reIsNative = RegExp(`^${
 }$`)
 
 /**
- * Checks if `value` is a pristine native function.
+ * 检查 `value` 是否是一个 native(原生) 函数
  *
  * @since 3.0.0
  * @category Lang
- * @param {*} value The value to check.
- * @returns {boolean} Returns `true` if `value` is a native function,
- *  else `false`.
+ * @param {*} value 要检查的值
+ * @returns {boolean} 如果 `value` 是 native 函数则返回 `true`，否则返回 `false`
  * @example
  *
  * isNative(Array.prototype.push)

@@ -1,7 +1,7 @@
 import basePick from './.internal/basePick.js'
 
 /**
- * Creates an object composed of the picked `object` properties.
+ * 创建一个由拾取的对象组成的对象属性
  *
  * @since 0.1.0
  * @category Object

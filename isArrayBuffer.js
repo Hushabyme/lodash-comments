@@ -6,12 +6,12 @@ import nodeUtil from './.internal/nodeUtil.js'
 const nodeIsArrayBuffer = nodeUtil && nodeUtil.isArrayBuffer
 
 /**
- * Checks if `value` is classified as an `ArrayBuffer` object.
+ * 检查 `value` 是否被分类为 `ArrayBuffer` 对象
  *
  * @since 4.3.0
  * @category Lang
- * @param {*} value The value to check.
- * @returns {boolean} Returns `true` if `value` is an array buffer, else `false`.
+ * @param {*} value 要检查的值
+ * @returns {boolean}如果 `value` 是 array buffer 则返回 `true`，否则为 `false`
  * @example
  *
  * isArrayBuffer(new ArrayBuffer(2))

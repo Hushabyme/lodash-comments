@@ -2,21 +2,18 @@ import baseIsMatch from './.internal/baseIsMatch.js'
 import getMatchData from './.internal/getMatchData.js'
 
 /**
- * Performs a partial deep comparison between `object` and `source` to
- * determine if `object` contains equivalent property values.
+ * 执行 `object` 和 `source` 之间的局部深入比较，以确定 `object` 是否包含等价的属性值
  *
- * **Note:** This method is equivalent to `matches` when `source` is
- * partially applied.
+ * **注意:** 当 `source` 部分应用时，此方法相当于 `matches`
  *
- * Partial comparisons will match empty array and empty object `source`
- * values against any array or object value, respectively. See `isEqual`
- * for a list of supported value comparisons.
+ * 部分比较将分别匹配空数组和空对象 `source` 值与任何数组或对象值
+ * 有关支持的值比较列表，请参见 `isEqual`
  *
  * @since 3.0.0
  * @category Lang
- * @param {Object} object The object to inspect.
- * @param {Object} source The object of property values to match.
- * @returns {boolean} Returns `true` if `object` is a match, else `false`.
+ * @param {Object} object 要检查的对象
+ * @param {Object} source 属性值的对象匹配
+ * @returns {boolean} 如果 `object` 匹配，则返回 `true`，否则为 `false`
  * @example
  *
  * const object = { 'a': 1, 'b': 2 }

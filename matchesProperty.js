@@ -5,9 +5,8 @@ import baseMatchesProperty from './.internal/baseMatchesProperty.js'
 const CLONE_DEEP_FLAG = 1
 
 /**
- * Creates a function that performs a partial deep comparison between the
- * value at `path` of a given object to `srcValue`, returning `true` if the
- * object value is equivalent, else `false`.
+ * 创建一个函数，它将给定对象的 `path` 值与 `srcValue` 执行局部深度比较
+ * 如果对象值相等，则返回 `true`，否则返回 `false`
  *
  * **Note:** Partial comparisons will match empty array and empty object
  * `srcValue` values against any array or object value, respectively. See

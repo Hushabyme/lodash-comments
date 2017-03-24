@@ -1,5 +1,5 @@
 /**
- * Checks if `value` is less than `other`.
+ * 检查 `value` 是否小于 `other`
  *
  * @since 3.9.0
  * @category Lang

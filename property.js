@@ -4,7 +4,7 @@ import isKey from './.internal/isKey.js'
 import toKey from './.internal/toKey.js'
 
 /**
- * Creates a function that returns the value at `path` of a given object.
+ * 创建一个返回给定对象的 `path` 值的函数
  *
  * @since 2.4.0
  * @category Util

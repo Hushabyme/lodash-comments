@@ -1,8 +1,8 @@
 import nth from './nth.js'
 
 /**
- * Creates a function that gets the argument at index `n`. If `n` is negative,
- * the nth argument from the end is returned.
+ * 创建一个函数，获取索引 `n` 上的参数
+ * 如果 `n` 为负数，则返回从末尾开始的第 n 个参数
  *
  * @since 4.0.0
  * @category Util

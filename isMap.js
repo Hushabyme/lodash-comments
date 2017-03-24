@@ -6,12 +6,12 @@ import nodeUtil from './.internal/nodeUtil.js'
 const nodeIsMap = nodeUtil && nodeUtil.isMap
 
 /**
- * Checks if `value` is classified as a `Map` object.
+ * 检查 `value` 是否类属于 `Map` 对象
  *
  * @since 4.3.0
  * @category Lang
- * @param {*} value The value to check.
- * @returns {boolean} Returns `true` if `value` is a map, else `false`.
+ * @param {*} value 要检查的值
+ * @returns {boolean} 如果 `value` 是 map 则返回 `true`，否则返回 `false`
  * @example
  *
  * isMap(new Map)

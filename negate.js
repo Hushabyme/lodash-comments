@@ -1,7 +1,6 @@
 /**
- * Creates a function that negates the result of the predicate `func`. The
- * `func` predicate is invoked with the `this` binding and arguments of the
- * created function.
+ * 创建一个消除谓词 `func` 的结果的函数
+ * `func` 谓词用 `this` 绑定和被处理函数的参数调用。
  *
  * @since 3.0.0
  * @category Function

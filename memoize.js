@@ -1,11 +1,10 @@
 import MapCache from './.internal/MapCache.js'
 
 /**
- * Creates a function that memoizes the result of `func`. If `resolver` is
- * provided, it determines the cache key for storing the result based on the
- * arguments provided to the memoized function. By default, the first argument
- * provided to the memoized function is used as the map cache key. The `func`
- * is invoked with the `this` binding of the memoized function.
+ * 创建一个函数来记录 `func` 的结果
+ * 如果提供了“解析器”，它将根据提供给记忆功能的参数来确定用于存储结果的缓存密钥
+ * 默认情况下，提供给记忆函数的第一个参数用作地图缓存键
+ * `func` 用 memoized 函数的 `this` 绑定来调用
  *
  * **Note:** The cache is exposed as the `cache` property on the memoized
  * function. Its creation may be customized by replacing the `memoize.Cache`

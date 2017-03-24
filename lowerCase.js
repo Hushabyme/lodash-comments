@@ -1,7 +1,7 @@
 import createCompounder from './.internal/createCompounder.js'
 
 /**
- * Converts `string`, as space separated words, to lower case.
+ * 转换 `string`, 转换为以空格分割的小写字符串
  *
  * @since 4.0.0
  * @category String

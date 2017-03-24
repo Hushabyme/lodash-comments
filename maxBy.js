@@ -1,9 +1,8 @@
 import isSymbol from './isSymbol.js'
 
 /**
- * This method is like `max` except that it accepts `iteratee` which is
- * invoked for each element in `array` to generate the criterion by which
- * the value is ranked. The iteratee is invoked with one argument: (value).
+ * 这个方法就像 `max`，除了它接受`iteratee`，它为`array`中的每个元素调用，以产生这个值被排列的标准
+ * iteratee被调用一个参数：（value）
  *
  * @since 4.0.0
  * @category Math

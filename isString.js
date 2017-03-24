@@ -1,12 +1,12 @@
 import getTag from './.internal/getTag.js'
 
 /**
- * Checks if `value` is classified as a `String` primitive or object.
+ * 检查是否 `value` 类属于 `String` 原始类型或 object
  *
  * @since 0.1.0
  * @category Lang
- * @param {*} value The value to check.
- * @returns {boolean} Returns `true` if `value` is a string, else `false`.
+ * @param {*} value 要检查的值
+ * @returns {boolean} 返回 `true` 如果 `value` 为 string，否则返回 `false`
  * @example
  *
  * isString('abc')

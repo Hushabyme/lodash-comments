@@ -5,16 +5,13 @@ import baseMatches from './.internal/baseMatches.js'
 const CLONE_DEEP_FLAG = 1
 
 /**
- * Creates a function that performs a partial deep comparison between a given
- * object and `source`, returning `true` if the given object has equivalent
- * property values, else `false`.
+ * 创建一个函数，在给定的对象和 `source` 之间进行局部深度比较
+ * 如果给定的对象具有相同的属性值，则返回 `true`，否则为 `false`
  *
- * **Note:** The created function is equivalent to `isMatch` with `source`
- * partially applied.
+ * **注意:** 创建的函数等同于 `isMatch`，`source` 部分应用
  *
- * Partial comparisons will match empty array and empty object `source`
- * values against any array or object value, respectively. See `isEqual`
- * for a list of supported value comparisons.
+ * 部分比较将分别匹配空数组和空对象 `source` 值与任何数组或对象值
+ * 有关支持的值比较列表，请参见“isEqual”。
  *
  * @since 3.0.0
  * @category Util

@@ -6,12 +6,12 @@ import nodeUtil from './.internal/nodeUtil.js'
 const nodeIsDate = nodeUtil && nodeUtil.isDate
 
 /**
- * Checks if `value` is classified as a `Date` object.
+ * 检查 `value` 是否类属于 `Date` 对象
  *
  * @since 0.1.0
  * @category Lang
- * @param {*} value The value to check.
- * @returns {boolean} Returns `true` if `value` is a date object, else `false`.
+ * @param {*} value 要检查的值
+ * @returns {boolean} 如果 `value` 是 date 对象则返回 `true`，否则返回 `false`
  * @example
  *
  * isDate(new Date)
@@ -22,6 +22,6 @@ const nodeIsDate = nodeUtil && nodeUtil.isDate
  */
 const isDate = nodeIsDate
   ? (value) => nodeIsDate(value)
-  : (value) => isObjectLike(value) && baseGetTag(value) == '[object Date]'
+  : (value) => isObjectLike(value) && baseGetTag(value) == '[object Date]';
 
 export default isDate

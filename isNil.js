@@ -1,10 +1,10 @@
 /**
- * Checks if `value` is `null` or `undefined`.
+ * 检查是否 `value` 为 `null` 或者为 `undefined`
  *
  * @since 4.0.0
  * @category Lang
- * @param {*} value The value to check.
- * @returns {boolean} Returns `true` if `value` is nullish, else `false`.
+ * @param {*} value 要检查的值
+ * @returns {boolean} 返回 `true` 如果 `value` 是 nullish，否则返回 `false`
  * @example
  *
  * isNil(null)

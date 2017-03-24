@@ -2,10 +2,9 @@ import baseAssignValue from './.internal/baseAssignValue.js'
 import reduce from './reduce.js'
 
 /**
- * Creates an object composed of keys generated from the results of running
- * each element of `collection` thru `iteratee`. The corresponding value of
- * each key is the last element responsible for generating the key. The
- * iteratee is invoked with one argument: (value).
+ * 创建一个由运行 `collection` 到 `iteratee` 的每个元素的结果生成的按键组成的对象
+ * 每个密钥的相应值是负责生成密钥的最后一个元素
+ * iteratee被调用一个参数：（value）
  *
  * @since 4.0.0
  * @category Collection

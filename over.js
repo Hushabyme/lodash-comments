@@ -1,8 +1,7 @@
 import arrayMap from './.internal/arrayMap.js'
 
 /**
- * Creates a function that invokes `iteratees` with the arguments it receives
- * and returns their results.
+ * 创建一个使用它所接受的参数调用 `iteratees` 的函数并返回其结果
  *
  * @since 4.0.0
  * @category Util

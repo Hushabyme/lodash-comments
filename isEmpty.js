@@ -6,23 +6,22 @@ import isBuffer from './isBuffer.js'
 import isPrototype from './.internal/isPrototype.js'
 import isTypedArray from './isTypedArray.js'
 
-/** Used to check objects for own properties. */
-const hasOwnProperty = Object.prototype.hasOwnProperty
+/** 用于检查对象的自身属性 */
+const hasOwnProperty = Object.prototype.hasOwnProperty;
 
 /**
- * Checks if `value` is an empty object, collection, map, or set.
+ * 检查是否 `value` 为空对象、集合、 map 或者 set
  *
- * Objects are considered empty if they have no own enumerable string keyed
- * properties.
+ * 如果对象没有自身的可枚举的字符串 key 属性，则它们被认为是空的
  *
- * Array-like values such as `arguments` objects, arrays, buffers, strings, or
+ * 类数组的值有以下形式： `arguments` objects, arrays, buffers, strings, or
  * jQuery-like collections are considered empty if they have a `length` of `0`.
  * Similarly, maps and sets are considered empty if they have a `size` of `0`.
  *
  * @since 0.1.0
  * @category Lang
- * @param {*} value The value to check.
- * @returns {boolean} Returns `true` if `value` is empty, else `false`.
+ * @param {*} value 要检查的值
+ * @returns {boolean} 如果 `value` 为空，则返回 `true`，否则为 `false`
  * @example
  *
  * isEmpty(null)

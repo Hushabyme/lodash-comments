@@ -1,8 +1,8 @@
 import invoke from './invoke.js'
 
 /**
- * Creates a function that invokes the method at `path` of a given object.
- * Any additional arguments are provided to the invoked method.
+ * 创建一个调用给定对象的 `path` 方法的函数
+ * 任何其他参数都被提供给被调用的方法
  *
  * @since 3.7.0
  * @category Util

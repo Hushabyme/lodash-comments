@@ -7,11 +7,9 @@ import baseMerge from './.internal/baseMerge.js'
 import createAssigner from './.internal/createAssigner.js'
 
 /**
- * This method is like `merge` except that it accepts `customizer` which
- * is invoked to produce the merged values of the destination and source
- * properties. If `customizer` returns `undefined`, merging is handled by the
- * method instead. The `customizer` is invoked with six arguments:
- * (objValue, srcValue, key, object, source, stack).
+ * 这个方法就像 `merge`，除了它接受 `customizer` 属性
+ * 如果 `customizer` 返回 `undefined`，则合并由方法处理
+ * `customizer` 被调用六个参数：（objValue，srcValue，key，object，source，stack）。
  *
  * **Note:** This method mutates `object`.
  *

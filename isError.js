@@ -9,7 +9,7 @@ import isPlainObject from './isPlainObject.js'
  * @since 3.0.0
  * @category Lang
  * @param {*} value 要检查值
- * @returns {boolean} 如果 `value` 是一个错误对象，返回 `true`，否则为 `false`
+ * @returns {boolean} 如果 `value` 是一个 error 对象，返回 `true`，否则为 `false`
  * @example
  *
  * isError(new Error)

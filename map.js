@@ -38,3 +38,11 @@ function map(collection, iteratee) {
 }
 
 export default map
+
+/*
+*
+* 思考：
+*
+* 现在，我们可以使用 Array.prototype.map() 方法替代该方法
+*
+* */

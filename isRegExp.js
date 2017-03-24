@@ -6,12 +6,12 @@ import nodeUtil from './.internal/nodeUtil.js'
 const nodeIsRegExp = nodeUtil && nodeUtil.isRegExp
 
 /**
- * Checks if `value` is classified as a `RegExp` object.
+ * 检查 `value` 是否类属于 `RegExp` 对象
  *
  * @since 0.1.0
  * @category Lang
- * @param {*} value The value to check.
- * @returns {boolean} Returns `true` if `value` is a regexp, else `false`.
+ * @param {*} value 要检查的值
+ * @returns {boolean} 返回 `true` 如果 `value` 是 regexp，否则返回 `false`
  * @example
  *
  * isRegExp(/abc/)

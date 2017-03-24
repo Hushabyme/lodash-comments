@@ -1,17 +1,16 @@
 import baseIsEqual from './.internal/baseIsEqual.js'
 
 /**
- * This method is like `isEqual` except that it accepts `customizer` which
- * is invoked to compare values. If `customizer` returns `undefined`, comparisons
- * are handled by the method instead. The `customizer` is invoked with up to
- * six arguments: (objValue, othValue [, index|key, object, other, stack]).
+ * 这个方法就像 `isEqual`，除了它接受调用来比较值的 `customizer`
+ * 如果 `customizer` 返回 `undefined`，那么比较是由方法来处理的
+ * `customizer` 被调用最多六个参数: (objValue，othValue [，index | key，object，other，stack])
  *
  * @since 4.0.0
  * @category Lang
- * @param {*} value The value to compare.
- * @param {*} other The other value to compare.
- * @param {Function} [customizer] The function to customize comparisons.
- * @returns {boolean} Returns `true` if the values are equivalent, else `false`.
+ * @param {*} value 要比较的值
+ * @param {*} other 要比较的其它值
+ * @param {Function} [customizer] 自定义比较函数
+ * @returns {boolean} 如果 `value` 相等，则返回 `true`，否则返回 `false`
  * @example
  *
  * function isGreeting(value) {

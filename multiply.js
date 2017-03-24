@@ -1,7 +1,7 @@
 import createMathOperation from './.internal/createMathOperation.js'
 
 /**
- * Multiply two numbers.
+ * 两个数相乘
  *
  * @since 4.7.0
  * @category Math
@@ -16,3 +16,15 @@ import createMathOperation from './.internal/createMathOperation.js'
 const multiply = createMathOperation((multiplier, multiplicand) => multiplier * multiplicand, 1)
 
 export default multiply
+
+/*
+*
+* 思考：
+*
+* 看到这里，我实在是不知道说什么了。
+* 封装方法是很好，但是 API 过多真的是一个好事吗？
+*
+* */
+
+const multi = (a, b) => a * b;
+console.log(multi(4, 5));  // 20
